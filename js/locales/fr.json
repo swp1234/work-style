@@ -34,7 +34,15 @@
     "careersTitle": "Meilleures options de carrière",
     "motivationTitle": "Ce qui te fait s'épanouir",
     "shareBtn": "📤 Partager les résultats",
-    "retryBtn": "🔄 Recommencer le test"
+    "retryBtn": "🔄 Recommencer le test",
+    "moreTests": "Découvre d'autres tests",
+    "percentileStat": "Seulement <strong>{percent}%</strong> des participants ont obtenu le même type"
+  },
+  "related": {
+    "mbtiCareer": "MBTI Carrière",
+    "mbtiLove": "MBTI Amour",
+    "brainType": "Type Cérébral",
+    "eqTest": "Test QE"
   },
   "share": {
     "title": "Partager les résultats",

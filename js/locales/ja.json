@@ -34,7 +34,15 @@
     "careersTitle": "向いている職業",
     "motivationTitle": "あなたのモチベーション源",
     "shareBtn": "📤 結果をシェア",
-    "retryBtn": "🔄 もう一度テスト"
+    "retryBtn": "🔄 もう一度テスト",
+    "moreTests": "関連テストを見る",
+    "percentileStat": "受験者の <strong>{percent}%</strong> だけが同じタイプでした"
+  },
+  "related": {
+    "mbtiCareer": "MBTI 適職",
+    "mbtiLove": "MBTI 恋愛",
+    "brainType": "脳タイプ",
+    "eqTest": "EQテスト"
   },
   "share": {
     "title": "結果をシェア",

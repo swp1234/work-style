@@ -34,7 +34,15 @@
     "careersTitle": "Pilihan Karier Terbaik",
     "motivationTitle": "Yang Membuatmu Berkembang",
     "shareBtn": "📤 Bagikan Hasil",
-    "retryBtn": "🔄 Ulangi Tes"
+    "retryBtn": "🔄 Ulangi Tes",
+    "moreTests": "Jelajahi Tes Lainnya",
+    "percentileStat": "Hanya <strong>{percent}%</strong> peserta tes mendapat tipe yang sama"
+  },
+  "related": {
+    "mbtiCareer": "MBTI Karier",
+    "mbtiLove": "MBTI Cinta",
+    "brainType": "Tipe Otak",
+    "eqTest": "Tes EQ"
   },
   "share": {
     "title": "Bagikan Hasil",

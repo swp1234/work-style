@@ -34,7 +34,15 @@
     "careersTitle": "Mejores opciones de carrera",
     "motivationTitle": "Lo que te hace prosperar",
     "shareBtn": "📤 Compartir resultados",
-    "retryBtn": "🔄 Repetir test"
+    "retryBtn": "🔄 Repetir test",
+    "moreTests": "Explora más tests",
+    "percentileStat": "Solo el <strong>{percent}%</strong> de los participantes obtuvo el mismo tipo"
+  },
+  "related": {
+    "mbtiCareer": "MBTI Carrera",
+    "mbtiLove": "MBTI Amor",
+    "brainType": "Tipo Cerebral",
+    "eqTest": "Test EQ"
   },
   "share": {
     "title": "Compartir resultados",

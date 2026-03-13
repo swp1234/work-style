@@ -34,7 +34,15 @@
     "careersTitle": "最适合的职业",
     "motivationTitle": "让你充满动力的事",
     "shareBtn": "📤 分享结果",
-    "retryBtn": "🔄 重新测试"
+    "retryBtn": "🔄 重新测试",
+    "moreTests": "探索更多测试",
+    "percentileStat": "仅 <strong>{percent}%</strong> 的测试者获得了相同类型"
+  },
+  "related": {
+    "mbtiCareer": "MBTI 职业",
+    "mbtiLove": "MBTI 恋爱",
+    "brainType": "大脑类型",
+    "eqTest": "EQ 测试"
   },
   "share": {
     "title": "分享结果",

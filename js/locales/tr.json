@@ -34,7 +34,15 @@
     "careersTitle": "En Uygun Kariyer Seçenekleri",
     "motivationTitle": "Seni Geliştiren Şeyler",
     "shareBtn": "📤 Sonuçları Paylaş",
-    "retryBtn": "🔄 Testi Tekrarla"
+    "retryBtn": "🔄 Testi Tekrarla",
+    "moreTests": "Daha Fazla Test Keşfet",
+    "percentileStat": "Katılımcıların sadece <strong>{percent}%</strong>'i aynı tipi aldı"
+  },
+  "related": {
+    "mbtiCareer": "MBTI Kariyer",
+    "mbtiLove": "MBTI Aşk",
+    "brainType": "Beyin Tipi",
+    "eqTest": "EQ Testi"
   },
   "share": {
     "title": "Sonuçları Paylaş",

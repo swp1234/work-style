@@ -34,7 +34,15 @@
     "careersTitle": "सर्वोत्तम करियर विकल्प",
     "motivationTitle": "आपको फलने-फूलने वाली बात",
     "shareBtn": "📤 परिणाम साझा करें",
-    "retryBtn": "🔄 दोबारा परीक्षण करें"
+    "retryBtn": "🔄 दोबारा परीक्षण करें",
+    "moreTests": "और परीक्षण देखें",
+    "percentileStat": "केवल <strong>{percent}%</strong> परीक्षार्थियों को समान प्रकार मिला"
+  },
+  "related": {
+    "mbtiCareer": "MBTI करियर",
+    "mbtiLove": "MBTI प्रेम",
+    "brainType": "मस्तिष्क प्रकार",
+    "eqTest": "EQ परीक्षण"
   },
   "share": {
     "title": "परिणाम साझा करें",

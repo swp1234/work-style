@@ -680,6 +680,31 @@
             white-space: nowrap;
         }
         .toast.show { opacity: 1; }
+
+        /* Related Tests */
+        .related-tests { width: 100%; margin-top: 8px; padding-top: 20px; border-top: 1px solid var(--border); }
+        .related-tests h3 { font-size: 16px; color: var(--text-muted); margin-bottom: 12px; text-align: center; }
+        .related-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; }
+        .related-card {
+            background: var(--surface);
+            border: 1px solid var(--border-light);
+            border-radius: var(--radius-sm);
+            padding: 14px 8px;
+            text-align: center;
+            text-decoration: none;
+            display: flex; flex-direction: column;
+            align-items: center; gap: 6px;
+            transition: all 0.2s; cursor: pointer;
+        }
+        .related-card:hover {
+            border-color: var(--card-color, var(--primary));
+            background: var(--surface-hover);
+            transform: translateY(-3px);
+        }
+        .related-emoji { font-size: 28px; }
+        .related-name { font-size: 12px; font-weight: 600; color: var(--text); }
+        .percentile-stat { text-align: center; margin: 16px 0 0; font-size: 13px; color: var(--text-muted); }
+        .percentile-stat strong { color: var(--primary-light); font-size: 15px; }
     </style>
 </head>
 <body>
@@ -811,16 +836,6 @@
         </a>
     </footer>
 
-    <section class="related-games" style="margin:20px auto;padding:16px;max-width:480px;background:rgba(255,255,255,0.05);border-radius:12px;">
-      <p style="font-size:13px;color:#aaa;margin:0 0 8px 0;font-weight:600;">More Free Tests</p>
-      <div style="display:flex;gap:8px;flex-wrap:wrap;">
-        <a href="/mbti-career/" style="padding:6px 12px;background:rgba(255,255,255,0.08);border-radius:8px;text-decoration:none;color:inherit;font-size:13px;">💼 MBTI Career</a>
-        <a href="/brain-type/" style="padding:6px 12px;background:rgba(255,255,255,0.08);border-radius:8px;text-decoration:none;color:inherit;font-size:13px;">🧠 Brain Type</a>
-        <a href="/stress-type/" style="padding:6px 12px;background:rgba(255,255,255,0.08);border-radius:8px;text-decoration:none;color:inherit;font-size:13px;">😤 Stress Type</a>
-        <a href="/routine-planner/" style="padding:6px 12px;background:rgba(255,255,255,0.08);border-radius:8px;text-decoration:none;color:inherit;font-size:13px;">📋 Routine Planner</a>
-        <a href="/pomodoro-timer/" style="padding:6px 12px;background:rgba(255,255,255,0.08);border-radius:8px;text-decoration:none;color:inherit;font-size:13px;">⏱️ Pomodoro Timer</a>
-      </div>
-    </section>
 
     <script src="js/i18n.js"></script>
     <script src="js/app.js"></script>

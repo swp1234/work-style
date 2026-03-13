@@ -34,7 +34,15 @@
     "careersTitle": "Beste Karriereoptionen",
     "motivationTitle": "Was dich zum Aufblühen bringt",
     "shareBtn": "📤 Ergebnisse teilen",
-    "retryBtn": "🔄 Test wiederholen"
+    "retryBtn": "🔄 Test wiederholen",
+    "moreTests": "Weitere Tests entdecken",
+    "percentileStat": "Nur <strong>{percent}%</strong> der Teilnehmer erhielten denselben Typ"
+  },
+  "related": {
+    "mbtiCareer": "MBTI Karriere",
+    "mbtiLove": "MBTI Liebe",
+    "brainType": "Gehirntyp",
+    "eqTest": "EQ-Test"
   },
   "share": {
     "title": "Ergebnisse teilen",

@@ -37,7 +37,15 @@
     "careersTitle": "이런 직업이 잘 맞아요",
     "motivationTitle": "나를 행복하게 하는 것",
     "shareBtn": "📤 결과 공유하기",
-    "retryBtn": "🔄 다시 테스트하기"
+    "retryBtn": "🔄 다시 테스트하기",
+    "moreTests": "관련 테스트 더 보기",
+    "percentileStat": "응시자 중 <strong>{percent}%</strong>만이 같은 유형을 받았습니다"
+  },
+  "related": {
+    "mbtiCareer": "MBTI 직업",
+    "mbtiLove": "MBTI 연애",
+    "brainType": "뇌 유형",
+    "eqTest": "EQ 테스트"
   },
   "share": {
     "title": "결과 공유하기",

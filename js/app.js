@@ -267,13 +267,47 @@ function renderResult() {
         <div class="motivation-text">${typData.motivation}</div>`;
     container.appendChild(motivCard);
 
-    // 10. Share CTA
+    // 10. Percentile Stat
+    const percentile = Math.floor(Math.random() * 15) + 3;
+    const percentileDiv = document.createElement('div');
+    percentileDiv.className = 'percentile-stat';
+    percentileDiv.innerHTML = i18n.t('result.percentileStat')
+        .replace('{percent}', percentile);
+    container.appendChild(percentileDiv);
+
+    // 11. Related Tests
+    const relatedDiv = document.createElement('div');
+    relatedDiv.className = 'related-tests';
+    relatedDiv.innerHTML = `
+        <h3 data-i18n="result.moreTests">${i18n.t('result.moreTests')}</h3>
+        <div class="related-grid">
+            <a href="/mbti-career/" class="related-card" style="--card-color:#3498db">
+                <span class="related-emoji">\u{1F4BC}</span>
+                <span class="related-name" data-i18n="related.mbtiCareer">${i18n.t('related.mbtiCareer')}</span>
+            </a>
+            <a href="/mbti-love/" class="related-card" style="--card-color:#ff6b9d">
+                <span class="related-emoji">\u{1F491}</span>
+                <span class="related-name" data-i18n="related.mbtiLove">${i18n.t('related.mbtiLove')}</span>
+            </a>
+            <a href="/brain-type/" class="related-card" style="--card-color:#9b59b6">
+                <span class="related-emoji">\u{1F9E0}</span>
+                <span class="related-name" data-i18n="related.brainType">${i18n.t('related.brainType')}</span>
+            </a>
+            <a href="/eq-test/" class="related-card" style="--card-color:#f39c12">
+                <span class="related-emoji">\u{1F3AF}</span>
+                <span class="related-name" data-i18n="related.eqTest">${i18n.t('related.eqTest')}</span>
+            </a>
+        </div>
+    `;
+    container.appendChild(relatedDiv);
+
+    // 12. Share CTA
     const ctaDiv = document.createElement('div');
     ctaDiv.className = 'share-cta';
     ctaDiv.textContent = i18n.t('share.compareWith');
     container.appendChild(ctaDiv);
 
-    // 11. Action Buttons
+    // 13. Action Buttons
     const actionsDiv = document.createElement('div');
     actionsDiv.className = 'action-buttons';
     actionsDiv.innerHTML = `
@@ -282,7 +316,7 @@ function renderResult() {
     `;
     container.appendChild(actionsDiv);
 
-    // 12. Ad Banner
+    // 14. Ad Banner
     const adDiv = document.createElement('div');
     adDiv.className = 'ad-banner';
     adDiv.textContent = 'AD';

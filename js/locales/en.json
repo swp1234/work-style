@@ -37,7 +37,15 @@
     "careersTitle": "Best Career Matches",
     "motivationTitle": "What Makes You Thrive",
     "shareBtn": "📤 Share Results",
-    "retryBtn": "🔄 Retake Test"
+    "retryBtn": "🔄 Retake Test",
+    "moreTests": "Explore More Tests",
+    "percentileStat": "Only <strong>{percent}%</strong> of test-takers got the same type"
+  },
+  "related": {
+    "mbtiCareer": "MBTI Career",
+    "mbtiLove": "MBTI Love",
+    "brainType": "Brain Type",
+    "eqTest": "EQ Test"
   },
   "share": {
     "title": "Share Results",

@@ -34,7 +34,15 @@
     "careersTitle": "Лучшие варианты карьеры",
     "motivationTitle": "Что заставляет тебя расцветать",
     "shareBtn": "📤 Поделиться результатами",
-    "retryBtn": "🔄 Пройти снова"
+    "retryBtn": "🔄 Пройти снова",
+    "moreTests": "Другие тесты",
+    "percentileStat": "Только <strong>{percent}%</strong> прошедших тест получили такой же тип"
+  },
+  "related": {
+    "mbtiCareer": "MBTI Карьера",
+    "mbtiLove": "MBTI Любовь",
+    "brainType": "Тип мозга",
+    "eqTest": "EQ Тест"
   },
   "share": {
     "title": "Поделиться результатами",
