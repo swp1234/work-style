@@ -281,21 +281,21 @@ function renderResult() {
     relatedDiv.innerHTML = `
         <h3 data-i18n="result.moreTests">${i18n.t('result.moreTests')}</h3>
         <div class="related-grid">
-            <a href="/mbti-career/" class="related-card" style="--card-color:#3498db">
-                <span class="related-emoji">\u{1F4BC}</span>
-                <span class="related-name" data-i18n="related.mbtiCareer">${i18n.t('related.mbtiCareer')}</span>
+            <a href="/stress-check/" class="related-card" style="--card-color:#3498db">
+                <span class="related-emoji">💆</span>
+                <span class="related-name" data-i18n="related.stressCheck">${i18n.t('related.stressCheck')}</span>
             </a>
-            <a href="/mbti-love/" class="related-card" style="--card-color:#ff6b9d">
-                <span class="related-emoji">\u{1F491}</span>
-                <span class="related-name" data-i18n="related.mbtiLove">${i18n.t('related.mbtiLove')}</span>
+            <a href="/future-self/" class="related-card" style="--card-color:#ff6b9d">
+                <span class="related-emoji">⏳</span>
+                <span class="related-name" data-i18n="related.futureSelf">${i18n.t('related.futureSelf')}</span>
             </a>
-            <a href="/brain-type/" class="related-card" style="--card-color:#9b59b6">
-                <span class="related-emoji">\u{1F9E0}</span>
-                <span class="related-name" data-i18n="related.brainType">${i18n.t('related.brainType')}</span>
+            <a href="/mbti-tips/" class="related-card" style="--card-color:#9b59b6">
+                <span class="related-emoji">💡</span>
+                <span class="related-name" data-i18n="related.mbtiTips">${i18n.t('related.mbtiTips')}</span>
             </a>
-            <a href="/eq-test/" class="related-card" style="--card-color:#f39c12">
-                <span class="related-emoji">\u{1F3AF}</span>
-                <span class="related-name" data-i18n="related.eqTest">${i18n.t('related.eqTest')}</span>
+            <a href="/iq-test/" class="related-card" style="--card-color:#f39c12">
+                <span class="related-emoji">🧩</span>
+                <span class="related-name" data-i18n="related.iqTest">${i18n.t('related.iqTest')}</span>
             </a>
         </div>
     `;

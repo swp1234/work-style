@@ -15,7 +15,10 @@
     "socialProof": "3.100 Personen haben ihren Arbeitstyp entdeckt 💼",
     "microCopy": "~5 Min. · Ergebnisse sofort teilen"
   },
-  "quiz": { "questionLabel": "F{{n}}.", "skip": "Überspringen" },
+  "quiz": {
+    "questionLabel": "F{{n}}.",
+    "skip": "Überspringen"
+  },
   "loading": {
     "text": "Deinen Arbeitsstil wird analysiert...",
     "msg1": "Deine Antworten werden verarbeitet...",
@@ -42,17 +45,27 @@
     "mbtiCareer": "MBTI Karriere",
     "mbtiLove": "MBTI Liebe",
     "brainType": "Gehirntyp",
-    "eqTest": "EQ-Test"
+    "eqTest": "EQ-Test",
+    "stressCheck": "Stress-Check",
+    "futureSelf": "Zukunfts-Ich",
+    "mbtiTips": "MBTI-Tipps & Passung",
+    "iqTest": "IQ-Test"
   },
   "share": {
     "title": "Ergebnisse teilen",
     "subtitle": "Vergleiche deinen Arbeitstyp mit Kollegen!",
     "compareWith": "👥 Schick diesen Test an deine Kollegen und vergleicht eure Typen!",
     "shareText": "Arbeitsstil-Test Ergebnis: {{type}} ({{enName}})\nWelcher Typ bist du?",
-    "twitter": "Twitter", "facebook": "Facebook", "kakaotalk": "KakaoTalk",
-    "copyLink": "Link kopieren", "nativeShare": "Teilen", "copied": "Link kopiert!"
+    "twitter": "Twitter",
+    "facebook": "Facebook",
+    "kakaotalk": "KakaoTalk",
+    "copyLink": "Link kopieren",
+    "nativeShare": "Teilen",
+    "copied": "Link kopiert!"
   },
-  "game": { "back": "DopaBrain Startseite" },
+  "game": {
+    "back": "DopaBrain Startseite"
+  },
   "questions": {
     "q1": "Wenn ich ein Teamprojekt starte, ...",
     "q1a": "Lege ich zuerst die Gesamtrichtung und Ziele fest",
@@ -207,7 +220,9 @@
   },
   "types": {
     "L": {
-      "name": "Der Anführer", "enName": "The Leader", "emoji": "👑",
+      "name": "Der Anführer",
+      "enName": "The Leader",
+      "emoji": "👑",
       "subtitle": "Gibt die Richtung vor und führt das Team",
       "description": "Du bist ein natürlicher Richtungsgeber. Selbst in komplexen Situationen hast du eine klare Vision und die Fähigkeit, Teams mit Zuversicht zu führen. Du triffst schnell Entscheidungen, nimmst Verantwortung ernst und siehst den Erfolg des Teams als deinen eigenen. Menschen scharen sich natürlich um dich.",
       "strength1": "Strategisches Denken — das große Bild sehen und Richtung festlegen",
@@ -215,13 +230,17 @@
       "strength3": "Entschiedene Entscheidungsfindung auch unter Druck",
       "weakness1": "Kann Details oder Umsetzungsschritte vernachlässigen",
       "weakness2": "Kann an Kommunikation mangeln, wenn man alles alleine lösen will",
-      "bestMatch": "E", "bestMatchReason": "Der Umsetzer verwandelt deine Strategie schnell und effektiv in Realität. Richtung + Antrieb = Ultimative Kombination!",
-      "career1": "Teamleiter / Manager / Führungskraft", "career2": "Projektmanager / Startup-Gründer",
+      "bestMatch": "E",
+      "bestMatchReason": "Der Umsetzer verwandelt deine Strategie schnell und effektiv in Realität. Richtung + Antrieb = Ultimative Kombination!",
+      "career1": "Teamleiter / Manager / Führungskraft",
+      "career2": "Projektmanager / Startup-Gründer",
       "career3": "Organisationsentwickler / Management-Berater",
       "motivation": "Du fühlst dich am energiegeladensten, wenn das Team sich unter deiner Führung auf ein gemeinsames Ziel zubewegt."
     },
     "E": {
-      "name": "Der Umsetzer", "enName": "The Executor", "emoji": "⚡",
+      "name": "Der Umsetzer",
+      "enName": "The Executor",
+      "emoji": "⚡",
       "subtitle": "Handlungen sprechen lauter — der Ergebnismacher",
       "description": "Du bist eine Leistungsmaschine, die Ergebnisse durch Handlungen zeigt, nicht durch Worte. Du zeigst bemerkenswerten Fokus und Antrieb beim Erreichen jedes Ziels. Anstatt zu viel nachzudenken, konzentrierst du dich auf das, was jetzt getan werden kann.",
       "strength1": "Herausragende Umsetzungsfähigkeit und ergebnisorientiertes Denken",
@@ -229,13 +248,17 @@
       "strength3": "Meister der Selbstverwaltung und Zeiteffizienz",
       "weakness1": "Fokus auf unmittelbare Aufgaben kann dazu führen, das große Bild zu verlieren",
       "weakness2": "Ergebnisse über den Prozess zu stellen kann Spannungen verursachen",
-      "bestMatch": "C", "bestMatchReason": "Die Ideen des Kreativen + deine Umsetzungskraft = Die besten Ergebnisse!",
-      "career1": "Product Manager / Operations-Spezialist", "career2": "Vertrieb / Business Development",
+      "bestMatch": "C",
+      "bestMatchReason": "Die Ideen des Kreativen + deine Umsetzungskraft = Die besten Ergebnisse!",
+      "career1": "Product Manager / Operations-Spezialist",
+      "career2": "Vertrieb / Business Development",
       "career3": "Unternehmer / Engineering-Leiter",
       "motivation": "Du erlebst die größte Befriedigung beim Abhaken des letzten Punktes auf deiner To-do-Liste. Konkrete, messbare Ergebnisse sind deine Energiequelle."
     },
     "C": {
-      "name": "Der Kreative", "enName": "The Creator", "emoji": "🎨",
+      "name": "Der Kreative",
+      "enName": "The Creator",
+      "emoji": "🎨",
       "subtitle": "Löst Probleme mit kühnen neuen Ideen",
       "description": "Du bist ein Innovator, der bestehende Formen bricht und neue Möglichkeiten eröffnet. Du findest Ideen, wo andere sie nicht sehen können, und redefinierst Probleme durch kreative Lösungen. Du fürchtest keine Veränderungen — du nimmst sie an.",
       "strength1": "Herausragende Kreativität und innovative Problemlösung",
@@ -243,13 +266,17 @@
       "strength3": "Fähigkeit, Probleme aus einer neuen Perspektive neu zu definieren",
       "weakness1": "Es könnte schwierig sein, Ideen in die Umsetzung zu überführen",
       "weakness2": "Das Streben nach Neuem kann die Nachverfolgung von Aufgaben schwächen",
-      "bestMatch": "A", "bestMatchReason": "Der Analytiker fügt deinen kreativen Ideen logische Grundlagen und Durchführbarkeit hinzu!",
-      "career1": "Marketingfachmann / Creative Director", "career2": "UX-Designer / Content Creator",
+      "bestMatch": "A",
+      "bestMatchReason": "Der Analytiker fügt deinen kreativen Ideen logische Grundlagen und Durchführbarkeit hinzu!",
+      "career1": "Marketingfachmann / Creative Director",
+      "career2": "UX-Designer / Content Creator",
       "career3": "Startup-Gründer / Innovationsstratege",
       "motivation": "Du erlebst die größte Aufregung, wenn Ideen in deinem Kopf zu echten Produkten werden. Ein freies Umfeld und kreative Herausforderungen halten dich am Leben."
     },
     "A": {
-      "name": "Der Analytiker", "enName": "The Analyst", "emoji": "🔬",
+      "name": "Der Analytiker",
+      "enName": "The Analyst",
+      "emoji": "🔬",
       "subtitle": "Findet die besten Antworten durch Daten und Logik",
       "description": "Du bist ein präziser Experte, der durch Daten und Logik die beste Antwort findet. Du vertraust Beweisen über Instinkten und Analyse über Vermutungen. Dein gründlicher Ansatz minimiert Fehler und erzeugt optimale Ergebnisse.",
       "strength1": "Herausragende analytische Fähigkeit und kritisches Denken",
@@ -257,13 +284,17 @@
       "strength3": "Datenbasierte Entscheidungsfindung",
       "weakness1": "Perfektionismus kann die Entscheidungsfindung verlangsamen",
       "weakness2": "Datenfokus kann dazu führen, den menschlichen Faktor zu übersehen",
-      "bestMatch": "C", "bestMatchReason": "Deine analytische Grundlage zu den Ideen des Kreativen ergibt realisierbare Innovation!",
-      "career1": "Datenanalyst / Business Intelligence", "career2": "Finanzexperte / Strategieberater",
+      "bestMatch": "C",
+      "bestMatchReason": "Deine analytische Grundlage zu den Ideen des Kreativen ergibt realisierbare Innovation!",
+      "career1": "Datenanalyst / Business Intelligence",
+      "career2": "Finanzexperte / Strategieberater",
       "career3": "Forscher / Entwickler / Qualitätsmanager",
       "motivation": "Du empfindest tiefe Befriedigung beim logischen Lösen eines komplexen Problems. Der Prozess der Genauigkeits- und Perfektion-Suche ist an sich ein Vergnügen."
     },
     "R": {
-      "name": "Der Verbinder", "enName": "The Connector", "emoji": "🤝",
+      "name": "Der Verbinder",
+      "enName": "The Connector",
+      "emoji": "🤝",
       "subtitle": "Schafft Teamkultur und fördert die Zusammenarbeit",
       "description": "Du bist die Schlüsselfigur, die Menschen verbindet und die Energie des Teams verwaltet. Mit außergewöhnlicher Empathie verstehst du die Emotionen der Teammitglieder, vermittelst bei Konflikten und förderst die Zusammenarbeit. Teams mit dir werden eine wirklich kohäsive Einheit.",
       "strength1": "Herausragende Empathie und zwischenmenschliche Fähigkeiten",
@@ -271,8 +302,10 @@
       "strength3": "Konfliktmediation und Erleichterung der Zusammenarbeit",
       "weakness1": "Kann zu stark von den Meinungen anderer beeinflusst werden",
       "weakness2": "Kann es schwierig sein, in Konfliktsituationen die eigene Position durchzusetzen",
-      "bestMatch": "L", "bestMatchReason": "Die klare Richtung des Anführers + deine Beziehungsfähigkeiten = Das gesamte Team wird eins!",
-      "career1": "HR-Spezialist / Organisationskultur-Manager", "career2": "Trainer / Team-Coach / Berater",
+      "bestMatch": "L",
+      "bestMatchReason": "Die klare Richtung des Anführers + deine Beziehungsfähigkeiten = Das gesamte Team wird eins!",
+      "career1": "HR-Spezialist / Organisationskultur-Manager",
+      "career2": "Trainer / Team-Coach / Berater",
       "career3": "Customer Success Manager / Community Manager",
       "motivation": "Du erlebst die größte Erfüllung, wenn ein Kollege sagt, er habe durch dich Kraft gewonnen. Verbindung und Vertrauen zwischen Menschen ist deine treibende Kraft."
     }

@@ -15,7 +15,10 @@
     "socialProof": "3.100 kişi iş tipini keşfetti 💼",
     "microCopy": "~5 dak · Anında paylaş"
   },
-  "quiz": { "questionLabel": "S{{n}}.", "skip": "Atla" },
+  "quiz": {
+    "questionLabel": "S{{n}}.",
+    "skip": "Atla"
+  },
   "loading": {
     "text": "Çalışma stilin analiz ediliyor...",
     "msg1": "Yanıtların işleniyor...",
@@ -42,17 +45,27 @@
     "mbtiCareer": "MBTI Kariyer",
     "mbtiLove": "MBTI Aşk",
     "brainType": "Beyin Tipi",
-    "eqTest": "EQ Testi"
+    "eqTest": "EQ Testi",
+    "stressCheck": "Stres Kontrolü",
+    "futureSelf": "Gelecekteki Ben",
+    "mbtiTips": "MBTI Uyumu ve İpuçları",
+    "iqTest": "IQ Testi"
   },
   "share": {
     "title": "Sonuçları Paylaş",
     "subtitle": "İş tipini meslektaşlarınla karşılaştır!",
     "compareWith": "👥 Bu testi meslektaşlarına gönder ve tipleri karşılaştırın!",
     "shareText": "İş Tarzı Testi Sonucu: {{type}} ({{enName}})\nSenin tipin ne?",
-    "twitter": "Twitter", "facebook": "Facebook", "kakaotalk": "KakaoTalk",
-    "copyLink": "Bağlantıyı Kopyala", "nativeShare": "Paylaş", "copied": "Bağlantı kopyalandı!"
+    "twitter": "Twitter",
+    "facebook": "Facebook",
+    "kakaotalk": "KakaoTalk",
+    "copyLink": "Bağlantıyı Kopyala",
+    "nativeShare": "Paylaş",
+    "copied": "Bağlantı kopyalandı!"
   },
-  "game": { "back": "DopaBrain Ana Sayfa" },
+  "game": {
+    "back": "DopaBrain Ana Sayfa"
+  },
   "questions": {
     "q1": "Bir ekip projesine başlarken, ben...",
     "q1a": "Önce genel yönü ve hedefleri belirlerim",
@@ -207,7 +220,9 @@
   },
   "types": {
     "L": {
-      "name": "Lider Tipi", "enName": "The Leader", "emoji": "👑",
+      "name": "Lider Tipi",
+      "enName": "The Leader",
+      "emoji": "👑",
       "subtitle": "Yönü belirleyen ve ekibi yönlendiren tip",
       "description": "Doğal bir yön belirleyicisin. Karmaşık durumlarda bile net bir vizyona sahipsin ve ekipleri güvenle yönetme yeteneğin var. Hızla karar alır, sorumluluğu ciddiye alır ve ekibin başarısını kendininkiyle özdeşleştirirsin. İnsanlar doğal olarak etrafında toplanır.",
       "strength1": "Büyük resmi gören ve yön belirleyen stratejik düşünce",
@@ -215,13 +230,17 @@
       "strength3": "Baskı altında bile kararlı karar verme",
       "weakness1": "Ayrıntıları veya uygulama adımlarını gözden kaçırabilir",
       "weakness2": "Her şeyi tek başına halletmeye çalışarak iletişim azalabilir",
-      "bestMatch": "E", "bestMatchReason": "Uygulayıcı stratejini gerçeğe dönüştürür, hızlı ve etkili şekilde. Lider yönü + Uygulayıcı gücü = Mükemmel kombinasyon!",
-      "career1": "Ekip Lideri / Müdür / Yönetici", "career2": "Proje Yöneticisi / Startup Kurucusu",
+      "bestMatch": "E",
+      "bestMatchReason": "Uygulayıcı stratejini gerçeğe dönüştürür, hızlı ve etkili şekilde. Lider yönü + Uygulayıcı gücü = Mükemmel kombinasyon!",
+      "career1": "Ekip Lideri / Müdür / Yönetici",
+      "career2": "Proje Yöneticisi / Startup Kurucusu",
       "career3": "Organizasyon Geliştirme / Yönetim Danışmanı",
       "motivation": "Ekibin senin yönlendirmen altında ortak bir hedefe doğru hareket ettiğinde en enerjik hissedersin."
     },
     "E": {
-      "name": "Uygulayıcı Tipi", "enName": "The Executor", "emoji": "⚡",
+      "name": "Uygulayıcı Tipi",
+      "enName": "The Executor",
+      "emoji": "⚡",
       "subtitle": "Eylemler sözcüklerden güçlüdür — sonuç üretici",
       "description": "Eylemlerle, sözcüklerle değil, sonuç gösteren bir performans makinesisin. Herhangi bir hedefe ulaşmada olağanüstü odaklanma ve kararlılık sergiliyorsun. Fazla düşünmek yerine şu an yapılabileceklere odaklanıyorsun.",
       "strength1": "Üstün uygulama yeteneği ve sonuç odaklı düşünce",
@@ -229,13 +248,17 @@
       "strength3": "Öz yönetim ve zaman verimliliği ustası",
       "weakness1": "Anlık görevlere odaklanmak büyük resmi kaybettiribilir",
       "weakness2": "Sonucu sürece önceliklendirmek sürtüşme yaratabilir",
-      "bestMatch": "C", "bestMatchReason": "Yaratıcının fikirleri + senin uygulama gücün = en iyi sonuçlar!",
-      "career1": "Ürün Yöneticisi / Operasyon Uzmanı", "career2": "Satış / İş Geliştirme",
+      "bestMatch": "C",
+      "bestMatchReason": "Yaratıcının fikirleri + senin uygulama gücün = en iyi sonuçlar!",
+      "career1": "Ürün Yöneticisi / Operasyon Uzmanı",
+      "career2": "Satış / İş Geliştirme",
       "career3": "Girişimci / Mühendislik Lideri",
       "motivation": "Yapılacaklar listesinin son maddesini çizdiğinde en büyük tatmini hissedersin. Somut ve ölçülebilir sonuçlar enerji kaynağındır."
     },
     "C": {
-      "name": "Yaratıcı Tipi", "enName": "The Creator", "emoji": "🎨",
+      "name": "Yaratıcı Tipi",
+      "enName": "The Creator",
+      "emoji": "🎨",
       "subtitle": "Cesur ve yeni fikirlerle sorunları çözen tip",
       "description": "Mevcut kalıpları kıran ve yeni olasılıklar açan bir yenilikçisin. Başkalarının göremediği yerlerde fikirler bulur ve sorunları yaratıcı çözümlerle yeniden tanımlarsın. Değişimden korkmaz, aksine onu kucaklarsın.",
       "strength1": "Üstün yaratıcılık ve yenilikçi problem çözme",
@@ -243,13 +266,17 @@
       "strength3": "Sorunları yeni bir perspektiften yeniden tanımlama yeteneği",
       "weakness1": "Fikirleri uygulamaya çevirmek zor olabilir",
       "weakness2": "Yenilik peşinde koşmak takip sürecini zayıflatabilir",
-      "bestMatch": "A", "bestMatchReason": "Analist yaratıcı fikirlerine mantıksal temel ekler. Yaratıcılık + Analiz = Tam inovasyon!",
-      "career1": "Pazarlamacı / Kreatif Direktör", "career2": "UX Tasarımcı / İçerik Yaratıcısı",
+      "bestMatch": "A",
+      "bestMatchReason": "Analist yaratıcı fikirlerine mantıksal temel ekler. Yaratıcılık + Analiz = Tam inovasyon!",
+      "career1": "Pazarlamacı / Kreatif Direktör",
+      "career2": "UX Tasarımcı / İçerik Yaratıcısı",
       "career3": "Startup Kurucusu / İnovasyon Stratejisti",
       "motivation": "Zihnindeki fikirler gerçek ürünlere dönüştüğünde en büyük heyecanı hissedersin. Özgür ortam ve yaratıcı zorluklar seni ayakta tutar."
     },
     "A": {
-      "name": "Analist Tipi", "enName": "The Analyst", "emoji": "🔬",
+      "name": "Analist Tipi",
+      "enName": "The Analyst",
+      "emoji": "🔬",
       "subtitle": "Veriler ve mantıkla en iyi cevapları bulan tip",
       "description": "Veriler ve mantıkla en iyi cevabı bulan hassas bir uzmansın. Sezgiden çok kanıta, tahmin yerine analize güveniyorsun. Titiz ve sistematik yaklaşımın hataları en aza indirir ve optimal sonuçlar üretir.",
       "strength1": "Üstün analitik yetenek ve eleştirel düşünce",
@@ -257,13 +284,17 @@
       "strength3": "Veri tabanlı karar verme yeteneği",
       "weakness1": "Mükemmeliyetçilik karar vermeyi yavaşlatabilir",
       "weakness2": "Verilere odaklanmak insan faktörünü gözden kaçırabilir",
-      "bestMatch": "C", "bestMatchReason": "Yaratıcının fikirlerine analitik zeminin eklenmesi gerçekleştirilebilir inovasyon üretir!",
-      "career1": "Veri Analisti / İş Zekası", "career2": "Finans Uzmanı / Strateji Danışmanı",
+      "bestMatch": "C",
+      "bestMatchReason": "Yaratıcının fikirlerine analitik zeminin eklenmesi gerçekleştirilebilir inovasyon üretir!",
+      "career1": "Veri Analisti / İş Zekası",
+      "career2": "Finans Uzmanı / Strateji Danışmanı",
       "career3": "Araştırmacı / Geliştirici / Kalite Yöneticisi",
       "motivation": "Karmaşık bir problemi mantıksal olarak çözdüğünde derin tatmin hissedersin. Doğruluk ve mükemmellik arayışının kendisi sana zevk verir."
     },
     "R": {
-      "name": "Bağlantı Kurucu Tipi", "enName": "The Connector", "emoji": "🤝",
+      "name": "Bağlantı Kurucu Tipi",
+      "enName": "The Connector",
+      "emoji": "🤝",
       "subtitle": "Ekip kültürü yaratan ve işbirliğini yönlendiren tip",
       "description": "İnsanları birbirine bağlayan ve ekibin enerjisini yöneten kilit figürsün. Olağanüstü empatiyle ekip üyelerinin duygularını anlıyor, çatışmaları arabuluyorsun. Senin olduğun ekipler gerçek anlamda ekip olur.",
       "strength1": "Üstün empati ve kişiler arası beceriler",
@@ -271,8 +302,10 @@
       "strength3": "Çatışma arabuluculuğu ve işbirliği kolaylaştırma",
       "weakness1": "Başkalarının fikirlerinden fazla etkilenebilir",
       "weakness2": "Çatışma durumlarında kendi tutumunu savunmak zor olabilir",
-      "bestMatch": "L", "bestMatchReason": "Liderin net yönü + ilişki becerileriniz = Tüm ekip bir bütün olur!",
-      "career1": "İK Uzmanı / Organizasyon Kültürü Yöneticisi", "career2": "Eğitmen / Ekip Koçu / Danışman",
+      "bestMatch": "L",
+      "bestMatchReason": "Liderin net yönü + ilişki becerileriniz = Tüm ekip bir bütün olur!",
+      "career1": "İK Uzmanı / Organizasyon Kültürü Yöneticisi",
+      "career2": "Eğitmen / Ekip Koçu / Danışman",
       "career3": "Müşteri Başarı Yöneticisi / Topluluk Yöneticisi",
       "motivation": "Bir meslektaşın sayende güç kazandığını söylediğinde en büyük tatmini hissedersin. İnsanlar arası bağlantı ve güven senin itici gücündür."
     }

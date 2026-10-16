@@ -15,7 +15,10 @@
     "socialProof": "已有3,100人发现了自己的工作类型 💼",
     "microCopy": "约5分钟 · 立即分享结果"
   },
-  "quiz": { "questionLabel": "Q{{n}}.", "skip": "跳过" },
+  "quiz": {
+    "questionLabel": "Q{{n}}.",
+    "skip": "跳过"
+  },
   "loading": {
     "text": "正在分析你的工作风格...",
     "msg1": "正在处理你的答案...",
@@ -42,17 +45,27 @@
     "mbtiCareer": "MBTI 职业",
     "mbtiLove": "MBTI 恋爱",
     "brainType": "大脑类型",
-    "eqTest": "EQ 测试"
+    "eqTest": "EQ 测试",
+    "stressCheck": "压力检测",
+    "futureSelf": "未来的自己",
+    "mbtiTips": "MBTI配对与技巧",
+    "iqTest": "IQ测试"
   },
   "share": {
     "title": "分享结果",
     "subtitle": "与同事比较你们的工作类型！",
     "compareWith": "👥 把这个测试发给同事，对比彼此的类型！",
     "shareText": "职场类型测试结果: {{type}} ({{enName}})\n你是哪种类型？",
-    "twitter": "Twitter", "facebook": "Facebook", "kakaotalk": "KakaoTalk",
-    "copyLink": "复制链接", "nativeShare": "分享", "copied": "链接已复制！"
+    "twitter": "Twitter",
+    "facebook": "Facebook",
+    "kakaotalk": "KakaoTalk",
+    "copyLink": "复制链接",
+    "nativeShare": "分享",
+    "copied": "链接已复制！"
   },
-  "game": { "back": "DopaBrain 首页" },
+  "game": {
+    "back": "DopaBrain 首页"
+  },
   "questions": {
     "q1": "开始团队项目时，我会？",
     "q1a": "先确定整体方向和目标",
@@ -207,7 +220,9 @@
   },
   "types": {
     "L": {
-      "name": "领导型", "enName": "The Leader", "emoji": "👑",
+      "name": "领导型",
+      "enName": "The Leader",
+      "emoji": "👑",
       "subtitle": "指引方向并带领团队的类型",
       "description": "你是天生的方向引领者。在复杂情况下也能保持清晰的愿景并出色地带领团队。决策迅速、责任感强，将整个团队的成功视为自己的成功。擅长将组织目标与个人角色联系起来，人们自然而然地聚集在你身边。",
       "strength1": "着眼全局并设定方向的战略思维",
@@ -215,13 +230,17 @@
       "strength3": "即便在危机中也能冷静决断的决策力",
       "weakness1": "可能忽视细节或执行过程",
       "weakness2": "试图独自解决一切可能导致与团队沟通不足",
-      "bestMatch": "E", "bestMatchReason": "执行型能最快最有效地将你的策略变为现实！领导方向+执行推进力=最强组合！",
-      "career1": "团队领导/部门经理/高管", "career2": "项目经理/创业者",
+      "bestMatch": "E",
+      "bestMatchReason": "执行型能最快最有效地将你的策略变为现实！领导方向+执行推进力=最强组合！",
+      "career1": "团队领导/部门经理/高管",
+      "career2": "项目经理/创业者",
       "career3": "组织发展专家/管理顾问",
       "motivation": "当团队朝着共同目标前进时，你最有活力。在带领大家创造成果的过程中体验领导者的责任与成就感。"
     },
     "E": {
-      "name": "执行型", "enName": "The Executor", "emoji": "⚡",
+      "name": "执行型",
+      "enName": "The Executor",
+      "emoji": "⚡",
       "subtitle": "行动胜于言辞，创造结果的类型",
       "description": "你是用行动而非言辞证明自己的成果机器。在达成目标方面展现出惊人的专注力和推进力。不过度思考，专注于当下能做的事，用成果证明自己的价值。以最短路径完成任何任务，是团队不可或缺的贡献者。",
       "strength1": "出色的执行力和以结果为导向的思维",
@@ -229,13 +248,17 @@
       "strength3": "自我管理和时间效率的高手",
       "weakness1": "专注于眼前任务可能失去大局观",
       "weakness2": "重结果轻过程可能与队友产生摩擦",
-      "bestMatch": "C", "bestMatchReason": "创意型的新鲜想法加上你的执行力，最好的结果就此诞生！",
-      "career1": "产品经理/运营专家", "career2": "销售专业人士/商业发展",
+      "bestMatch": "C",
+      "bestMatchReason": "创意型的新鲜想法加上你的执行力，最好的结果就此诞生！",
+      "career1": "产品经理/运营专家",
+      "career2": "销售专业人士/商业发展",
       "career3": "创业者/工程主管",
       "motivation": "划掉清单最后一项时，确认目标达成的瞬间最有满足感。具体可量化的成果是你的动力源泉。"
     },
     "C": {
-      "name": "创意型", "enName": "The Creator", "emoji": "🎨",
+      "name": "创意型",
+      "enName": "The Creator",
+      "emoji": "🎨",
       "subtitle": "用新颖想法解决问题的类型",
       "description": "你是打破现有框架、开启新可能性的创新者。在别人看不到的地方发现想法，用创造性解决方案重新定义问题。不惧变化，反而享受变化，为组织带来新鲜刺激和灵感。",
       "strength1": "卓越的创造力和创新性问题解决能力",
@@ -243,13 +266,17 @@
       "strength3": "从新视角重新定义问题的能力",
       "weakness1": "可能难以将想法转化为执行",
       "weakness2": "追求新奇可能导致工作收尾较弱",
-      "bestMatch": "A", "bestMatchReason": "分析型为你的创意想法添加逻辑依据和可行性！创造力+分析力=创新完成！",
-      "career1": "营销人员/创意总监", "career2": "UX设计师/内容创作者",
+      "bestMatch": "A",
+      "bestMatchReason": "分析型为你的创意想法添加逻辑依据和可行性！创造力+分析力=创新完成！",
+      "career1": "营销人员/创意总监",
+      "career2": "UX设计师/内容创作者",
       "career3": "创业者/创新策划人",
       "motivation": "当脑海中的想法变成真实产品或活动时，当提出没人想到的解决方案时，感到最大的兴奋。"
     },
     "A": {
-      "name": "分析型", "enName": "The Analyst", "emoji": "🔬",
+      "name": "分析型",
+      "enName": "The Analyst",
+      "emoji": "🔬",
       "subtitle": "用数据和逻辑寻找最佳答案的类型",
       "description": "你是用数据和逻辑寻找最佳答案的精准专家。比起直觉更信任依据，比起猜测更信任分析，问题越复杂越能展现实力。严谨系统的方式使错误最小化，产出最优结果。",
       "strength1": "出色的分析力和批判性思维",
@@ -257,13 +284,17 @@
       "strength3": "基于数据的决策能力",
       "weakness1": "完美主义可能导致决策延迟",
       "weakness2": "专注数据可能忽视人的因素",
-      "bestMatch": "C", "bestMatchReason": "在创意型的想法上加入你的分析依据，可行的创新就此诞生！",
-      "career1": "数据分析师/商业智能", "career2": "财务专家/战略顾问",
+      "bestMatch": "C",
+      "bestMatchReason": "在创意型的想法上加入你的分析依据，可行的创新就此诞生！",
+      "career1": "数据分析师/商业智能",
+      "career2": "财务专家/战略顾问",
       "career3": "研究员/开发者/质量管理专家",
       "motivation": "将复杂如谜题的问题逻辑性地解决时，数据明确指向正确答案的瞬间，感到深深的满足。"
     },
     "R": {
-      "name": "关系型", "enName": "The Connector", "emoji": "🤝",
+      "name": "关系型",
+      "enName": "The Connector",
+      "emoji": "🤝",
       "subtitle": "营造团队氛围并推动协作的类型",
       "description": "你是连接人与人、管理团队能量的核心人物。凭借卓越的同理心理解团队成员的情感，调解冲突并促进协作。有你在的团队不只是业务群体，而是真正意义上的团队。",
       "strength1": "出色的同理心和人际关系技巧",
@@ -271,8 +302,10 @@
       "strength3": "冲突调解和协作促进能力",
       "weakness1": "可能过度受他人意见影响导致自己的决定动摇",
       "weakness2": "在冲突情况下可能难以坚持自己的立场",
-      "bestMatch": "L", "bestMatchReason": "领导型的明确方向加上你的关系能力，整个团队成为一体！愿景+沟通=最强团队！",
-      "career1": "HR专家/组织文化负责人", "career2": "培训师/团队教练/咨询师",
+      "bestMatch": "L",
+      "bestMatchReason": "领导型的明确方向加上你的关系能力，整个团队成为一体！愿景+沟通=最强团队！",
+      "career1": "HR专家/组织文化负责人",
+      "career2": "培训师/团队教练/咨询师",
       "career3": "客户成功经理/社区经理",
       "motivation": "当队友说因为你而获得力量时，调解冲突让团队再次团结的瞬间，感到最大的成就感。人与人之间的连接和信任是你的动力。"
     }

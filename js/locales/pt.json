@@ -15,7 +15,10 @@
     "socialProof": "3.100 pessoas descobriram seu tipo de trabalho 💼",
     "microCopy": "~5 min · Compartilhe resultados imediatamente"
   },
-  "quiz": { "questionLabel": "P{{n}}.", "skip": "Pular" },
+  "quiz": {
+    "questionLabel": "P{{n}}.",
+    "skip": "Pular"
+  },
   "loading": {
     "text": "Analisando seu estilo de trabalho...",
     "msg1": "Processando suas respostas...",
@@ -42,17 +45,27 @@
     "mbtiCareer": "MBTI Carreira",
     "mbtiLove": "MBTI Amor",
     "brainType": "Tipo Cerebral",
-    "eqTest": "Teste EQ"
+    "eqTest": "Teste EQ",
+    "stressCheck": "Teste de Estresse",
+    "futureSelf": "Eu do Futuro",
+    "mbtiTips": "Dicas e Compatibilidade MBTI",
+    "iqTest": "Teste de QI"
   },
   "share": {
     "title": "Compartilhar resultados",
     "subtitle": "Compare seu tipo de trabalho com seus colegas!",
     "compareWith": "👥 Envie este teste para seus colegas e compare os tipos!",
     "shareText": "Resultado do Teste de Estilo de Trabalho: {{type}} ({{enName}})\nQual é o seu tipo?",
-    "twitter": "Twitter", "facebook": "Facebook", "kakaotalk": "KakaoTalk",
-    "copyLink": "Copiar link", "nativeShare": "Compartilhar", "copied": "Link copiado!"
+    "twitter": "Twitter",
+    "facebook": "Facebook",
+    "kakaotalk": "KakaoTalk",
+    "copyLink": "Copiar link",
+    "nativeShare": "Compartilhar",
+    "copied": "Link copiado!"
   },
-  "game": { "back": "DopaBrain Início" },
+  "game": {
+    "back": "DopaBrain Início"
+  },
   "questions": {
     "q1": "Ao iniciar um projeto em equipe, eu...",
     "q1a": "Defino primeiro a direção e os objetivos gerais",
@@ -207,7 +220,9 @@
   },
   "types": {
     "L": {
-      "name": "O Líder", "enName": "The Leader", "emoji": "👑",
+      "name": "O Líder",
+      "enName": "The Leader",
+      "emoji": "👑",
       "subtitle": "Define a direção e lidera a equipe",
       "description": "Você é um orientador natural. Mesmo em situações complexas, tem uma visão clara e a capacidade de liderar equipes com confiança. Toma decisões rapidamente, assume a responsabilidade a sério e vê o sucesso da equipe como o seu próprio. As pessoas naturalmente se aproximam de você.",
       "strength1": "Pensamento estratégico — ver o panorama geral e definir a direção",
@@ -215,13 +230,17 @@
       "strength3": "Tomada de decisões firme mesmo sob pressão",
       "weakness1": "Pode descuidar de detalhes ou etapas de implementação",
       "weakness2": "Pode faltar comunicação ao tentar gerenciar tudo sozinho",
-      "bestMatch": "E", "bestMatchReason": "O Executor transforma sua estratégia em realidade, rápido e eficazmente. Direção do líder + Impulso do executor = combinação máxima!",
-      "career1": "Líder de equipe / Gerente / Executivo", "career2": "Gerente de projeto / Fundador de startup",
+      "bestMatch": "E",
+      "bestMatchReason": "O Executor transforma sua estratégia em realidade, rápido e eficazmente. Direção do líder + Impulso do executor = combinação máxima!",
+      "career1": "Líder de equipe / Gerente / Executivo",
+      "career2": "Gerente de projeto / Fundador de startup",
       "career3": "Desenvolvedor organizacional / Consultor de gestão",
       "motivation": "Você se sente mais energizado quando a equipe avança em direção a um objetivo compartilhado sob sua direção."
     },
     "E": {
-      "name": "O Executor", "enName": "The Executor", "emoji": "⚡",
+      "name": "O Executor",
+      "enName": "The Executor",
+      "emoji": "⚡",
       "subtitle": "Ações falam mais alto — o fazedor de resultados",
       "description": "Você é uma máquina de desempenho que mostra resultados com ações, não com palavras. Exibe notável foco e determinação para atingir qualquer objetivo. Em vez de pensar demais, concentra-se no que pode ser feito agora e prova seu valor por meio de entregas.",
       "strength1": "Execução excelente e pensamento orientado a resultados",
@@ -229,13 +248,17 @@
       "strength3": "Mestre de autogestão e eficiência de tempo",
       "weakness1": "Focar em tarefas imediatas pode causar perda de visão global",
       "weakness2": "Priorizar resultados sobre o processo pode criar atrito",
-      "bestMatch": "C", "bestMatchReason": "As ideias do Criador mais seu poder de execução produzem os melhores resultados. Parceria dos sonhos!",
-      "career1": "Product Manager / Especialista em operações", "career2": "Vendas / Desenvolvimento de negócios",
+      "bestMatch": "C",
+      "bestMatchReason": "As ideias do Criador mais seu poder de execução produzem os melhores resultados. Parceria dos sonhos!",
+      "career1": "Product Manager / Especialista em operações",
+      "career2": "Vendas / Desenvolvimento de negócios",
       "career3": "Empreendedor / Líder de engenharia",
       "motivation": "Sente a maior satisfação ao riscar o último item da sua lista. Resultados concretos e mensuráveis são sua fonte de energia."
     },
     "C": {
-      "name": "O Criador", "enName": "The Creator", "emoji": "🎨",
+      "name": "O Criador",
+      "enName": "The Creator",
+      "emoji": "🎨",
       "subtitle": "Resolve problemas com ideias ousadas e novas",
       "description": "Você é um inovador que rompe os moldes existentes e abre novas possibilidades. Encontra ideias onde outros não conseguem ver e redefine problemas através de soluções criativas. Não teme mudanças — as abraça — e traz estimulação e inspiração frescas à sua organização.",
       "strength1": "Criatividade excelente e resolução inovadora de problemas",
@@ -243,13 +266,17 @@
       "strength3": "Capacidade de redefinir problemas a partir de uma perspectiva nova",
       "weakness1": "Pode ser difícil traduzir ideias em execução",
       "weakness2": "Perseguir a novidade pode enfraquecer o acompanhamento das tarefas",
-      "bestMatch": "A", "bestMatchReason": "O Analista adiciona fundamentos lógicos e viabilidade às suas ideias. Criatividade + Análise = Inovação completa!",
-      "career1": "Marketer / Diretor criativo", "career2": "Designer UX / Criador de conteúdo",
+      "bestMatch": "A",
+      "bestMatchReason": "O Analista adiciona fundamentos lógicos e viabilidade às suas ideias. Criatividade + Análise = Inovação completa!",
+      "career1": "Marketer / Diretor criativo",
+      "career2": "Designer UX / Criador de conteúdo",
       "career3": "Fundador de startup / Estrategista de inovação",
       "motivation": "Sente a maior emoção quando ideias na sua cabeça ganham vida como produtos reais. Um ambiente livre e desafios criativos te mantêm animado."
     },
     "A": {
-      "name": "O Analista", "enName": "The Analyst", "emoji": "🔬",
+      "name": "O Analista",
+      "enName": "The Analyst",
+      "emoji": "🔬",
       "subtitle": "Encontra as melhores respostas com dados e lógica",
       "description": "Você é um especialista preciso que encontra a melhor resposta por meio de dados e lógica. Confia em evidências em vez de intuição e em análise em vez de suposições. Sua abordagem meticulosa e sistemática minimiza erros e produz resultados ótimos.",
       "strength1": "Capacidade analítica excelente e pensamento crítico",
@@ -257,13 +284,17 @@
       "strength3": "Tomada de decisões baseada em dados",
       "weakness1": "O perfeccionismo pode retardar a tomada de decisões",
       "weakness2": "Focar em dados pode fazer negligenciar o fator humano",
-      "bestMatch": "C", "bestMatchReason": "Adicionar seu embasamento analítico às ideias do Criador produz inovação realizável. Lógica + imaginação!",
-      "career1": "Analista de dados / Business Intelligence", "career2": "Especialista financeiro / Consultor de estratégia",
+      "bestMatch": "C",
+      "bestMatchReason": "Adicionar seu embasamento analítico às ideias do Criador produz inovação realizável. Lógica + imaginação!",
+      "career1": "Analista de dados / Business Intelligence",
+      "career2": "Especialista financeiro / Consultor de estratégia",
       "career3": "Pesquisador / Desenvolvedor / Gestor de qualidade",
       "motivation": "Sente profunda satisfação ao resolver logicamente um problema complexo. O processo de buscar precisão e perfeição é em si um prazer."
     },
     "R": {
-      "name": "O Conector", "enName": "The Connector", "emoji": "🤝",
+      "name": "O Conector",
+      "enName": "The Connector",
+      "emoji": "🤝",
       "subtitle": "Cria cultura de equipe e impulsiona a colaboração",
       "description": "Você é a figura-chave que conecta pessoas e gerencia a energia da equipe. Com empatia excepcional, entende as emoções dos colegas, media conflitos e promove a colaboração. Equipes com você se tornam uma unidade verdadeiramente coesa.",
       "strength1": "Empatia excelente e habilidades interpessoais",
@@ -271,8 +302,10 @@
       "strength3": "Mediação de conflitos e facilitação da colaboração",
       "weakness1": "Pode ser muito influenciado pelas opiniões dos outros",
       "weakness2": "Pode ser difícil afirmar sua posição em situações de conflito",
-      "bestMatch": "L", "bestMatchReason": "A direção clara do Líder mais suas habilidades relacionais fazem a equipe se tornar uma. Visão + Comunicação = Equipe mais forte!",
-      "career1": "Especialista em RH / Cultura organizacional", "career2": "Treinador / Coach de equipe / Conselheiro",
+      "bestMatch": "L",
+      "bestMatchReason": "A direção clara do Líder mais suas habilidades relacionais fazem a equipe se tornar uma. Visão + Comunicação = Equipe mais forte!",
+      "career1": "Especialista em RH / Cultura organizacional",
+      "career2": "Treinador / Coach de equipe / Conselheiro",
       "career3": "Customer Success Manager / Community Manager",
       "motivation": "Sente a maior realização quando um colega diz que ganhou forças graças a você. Conexão e confiança entre pessoas é sua força motriz."
     }

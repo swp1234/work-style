@@ -15,7 +15,10 @@
     "socialProof": "3.100 orang telah menemukan tipe kerja mereka 💼",
     "microCopy": "~5 menit · Bagikan hasil segera"
   },
-  "quiz": { "questionLabel": "P{{n}}.", "skip": "Lewati" },
+  "quiz": {
+    "questionLabel": "P{{n}}.",
+    "skip": "Lewati"
+  },
   "loading": {
     "text": "Menganalisis gaya kerjamu...",
     "msg1": "Memproses jawabanmu...",
@@ -42,17 +45,27 @@
     "mbtiCareer": "MBTI Karier",
     "mbtiLove": "MBTI Cinta",
     "brainType": "Tipe Otak",
-    "eqTest": "Tes EQ"
+    "eqTest": "Tes EQ",
+    "stressCheck": "Cek Stres",
+    "futureSelf": "Diri Masa Depan",
+    "mbtiTips": "Tips & Kecocokan MBTI",
+    "iqTest": "Tes IQ"
   },
   "share": {
     "title": "Bagikan Hasil",
     "subtitle": "Bandingkan tipe kerjamu dengan rekan-rekan!",
     "compareWith": "👥 Kirim tes ini ke rekan-rekanmu dan bandingkan tipenya!",
     "shareText": "Hasil Tes Gaya Kerja: {{type}} ({{enName}})\nApa tipe kerjamu?",
-    "twitter": "Twitter", "facebook": "Facebook", "kakaotalk": "KakaoTalk",
-    "copyLink": "Salin Tautan", "nativeShare": "Bagikan", "copied": "Tautan disalin!"
+    "twitter": "Twitter",
+    "facebook": "Facebook",
+    "kakaotalk": "KakaoTalk",
+    "copyLink": "Salin Tautan",
+    "nativeShare": "Bagikan",
+    "copied": "Tautan disalin!"
   },
-  "game": { "back": "Beranda DopaBrain" },
+  "game": {
+    "back": "Beranda DopaBrain"
+  },
   "questions": {
     "q1": "Saat memulai proyek tim, saya...",
     "q1a": "Menetapkan arah dan tujuan keseluruhan terlebih dahulu",
@@ -207,7 +220,9 @@
   },
   "types": {
     "L": {
-      "name": "Tipe Pemimpin", "enName": "The Leader", "emoji": "👑",
+      "name": "Tipe Pemimpin",
+      "enName": "The Leader",
+      "emoji": "👑",
       "subtitle": "Menetapkan arah dan memimpin tim",
       "description": "Kamu adalah pengarah alami. Bahkan dalam situasi kompleks, kamu memiliki visi yang jelas dan kemampuan memimpin tim dengan percaya diri. Kamu membuat keputusan dengan cepat, mengambil tanggung jawab dengan serius, dan melihat keberhasilan tim sebagai keberhasilanmu sendiri.",
       "strength1": "Pemikiran strategis — melihat gambaran besar dan menetapkan arah",
@@ -215,13 +230,17 @@
       "strength3": "Pengambilan keputusan yang tegas bahkan di bawah tekanan",
       "weakness1": "Mungkin mengabaikan detail atau langkah implementasi",
       "weakness2": "Bisa kurang komunikasi dengan mencoba menangani segalanya sendiri",
-      "bestMatch": "E", "bestMatchReason": "Pelaksana mengubah strategimu menjadi kenyataan, cepat dan efektif. Arah + Dorongan = Kombinasi terbaik!",
-      "career1": "Pemimpin tim / Manajer / Eksekutif", "career2": "Manajer proyek / Pendiri startup",
+      "bestMatch": "E",
+      "bestMatchReason": "Pelaksana mengubah strategimu menjadi kenyataan, cepat dan efektif. Arah + Dorongan = Kombinasi terbaik!",
+      "career1": "Pemimpin tim / Manajer / Eksekutif",
+      "career2": "Manajer proyek / Pendiri startup",
       "career3": "Pengembang organisasi / Konsultan manajemen",
       "motivation": "Kamu merasa paling bersemangat ketika tim bergerak menuju tujuan bersama di bawah arahanmu."
     },
     "E": {
-      "name": "Tipe Pelaksana", "enName": "The Executor", "emoji": "⚡",
+      "name": "Tipe Pelaksana",
+      "enName": "The Executor",
+      "emoji": "⚡",
       "subtitle": "Tindakan berbicara lebih keras — pembuat hasil",
       "description": "Kamu adalah mesin kinerja yang menunjukkan hasil melalui tindakan, bukan kata-kata. Kamu menampilkan fokus dan dorongan yang luar biasa dalam mencapai tujuan apapun. Daripada terlalu banyak berpikir, kamu fokus pada apa yang bisa dilakukan sekarang.",
       "strength1": "Eksekusi yang luar biasa dan pemikiran berorientasi hasil",
@@ -229,13 +248,17 @@
       "strength3": "Ahli dalam manajemen diri dan efisiensi waktu",
       "weakness1": "Fokus pada tugas segera mungkin menyebabkan kehilangan gambaran besar",
       "weakness2": "Mengutamakan hasil daripada proses dapat menciptakan gesekan",
-      "bestMatch": "C", "bestMatchReason": "Ide-ide Kreator ditambah kekuatan eksekusimu menghasilkan hasil terbaik!",
-      "career1": "Product Manager / Spesialis operasi", "career2": "Penjualan / Pengembangan bisnis",
+      "bestMatch": "C",
+      "bestMatchReason": "Ide-ide Kreator ditambah kekuatan eksekusimu menghasilkan hasil terbaik!",
+      "career1": "Product Manager / Spesialis operasi",
+      "career2": "Penjualan / Pengembangan bisnis",
       "career3": "Wirausahawan / Pemimpin teknik",
       "motivation": "Kamu merasakan kepuasan terbesar saat mencoret item terakhir dari daftar. Hasil yang konkret dan terukur adalah sumber energimu."
     },
     "C": {
-      "name": "Tipe Kreator", "enName": "The Creator", "emoji": "🎨",
+      "name": "Tipe Kreator",
+      "enName": "The Creator",
+      "emoji": "🎨",
       "subtitle": "Memecahkan masalah dengan ide-ide berani dan baru",
       "description": "Kamu adalah inovator yang mematahkan cetakan yang ada dan membuka kemungkinan baru. Kamu menemukan ide di mana orang lain tidak bisa melihatnya dan mendefinisikan ulang masalah melalui solusi kreatif. Kamu tidak takut perubahan — kamu merangkulnya.",
       "strength1": "Kreativitas yang luar biasa dan pemecahan masalah yang inovatif",
@@ -243,13 +266,17 @@
       "strength3": "Kemampuan mendefinisikan ulang masalah dari perspektif baru",
       "weakness1": "Mungkin sulit menerjemahkan ide menjadi eksekusi",
       "weakness2": "Mengejar kebaruan mungkin melemahkan tindak lanjut tugas",
-      "bestMatch": "A", "bestMatchReason": "Analis menambahkan dasar logis dan kelayakan pada idemu. Kreativitas + Analisis = Inovasi lengkap!",
-      "career1": "Pemasar / Direktur kreatif", "career2": "Desainer UX / Kreator konten",
+      "bestMatch": "A",
+      "bestMatchReason": "Analis menambahkan dasar logis dan kelayakan pada idemu. Kreativitas + Analisis = Inovasi lengkap!",
+      "career1": "Pemasar / Direktur kreatif",
+      "career2": "Desainer UX / Kreator konten",
       "career3": "Pendiri startup / Ahli strategi inovasi",
       "motivation": "Kamu merasakan kegembiraan terbesar ketika ide dalam pikiranmu menjadi produk nyata. Lingkungan bebas dan tantangan kreatif membuatmu hidup."
     },
     "A": {
-      "name": "Tipe Analis", "enName": "The Analyst", "emoji": "🔬",
+      "name": "Tipe Analis",
+      "enName": "The Analyst",
+      "emoji": "🔬",
       "subtitle": "Menemukan jawaban terbaik melalui data dan logika",
       "description": "Kamu adalah pakar yang tepat yang menemukan jawaban terbaik melalui data dan logika. Kamu mempercayai bukti daripada naluri dan analisis daripada tebakan. Pendekatan yang teliti dan sistematis meminimalkan kesalahan dan menghasilkan hasil yang optimal.",
       "strength1": "Kemampuan analitis yang luar biasa dan pemikiran kritis",
@@ -257,13 +284,17 @@
       "strength3": "Pengambilan keputusan berbasis data",
       "weakness1": "Perfeksionisme mungkin memperlambat pengambilan keputusan",
       "weakness2": "Fokus pada data mungkin mengabaikan faktor manusia",
-      "bestMatch": "C", "bestMatchReason": "Menambahkan landasan analitismu pada ide Kreator menghasilkan inovasi yang dapat direalisasikan!",
-      "career1": "Analis data / Business Intelligence", "career2": "Spesialis keuangan / Konsultan strategi",
+      "bestMatch": "C",
+      "bestMatchReason": "Menambahkan landasan analitismu pada ide Kreator menghasilkan inovasi yang dapat direalisasikan!",
+      "career1": "Analis data / Business Intelligence",
+      "career2": "Spesialis keuangan / Konsultan strategi",
       "career3": "Peneliti / Pengembang / Manajer kualitas",
       "motivation": "Kamu merasakan kepuasan mendalam saat memecahkan masalah kompleks secara logis. Proses mencari akurasi dan kesempurnaan itu sendiri adalah kesenangan bagimu."
     },
     "R": {
-      "name": "Tipe Konektor", "enName": "The Connector", "emoji": "🤝",
+      "name": "Tipe Konektor",
+      "enName": "The Connector",
+      "emoji": "🤝",
       "subtitle": "Menciptakan budaya tim dan mendorong kolaborasi",
       "description": "Kamu adalah figur kunci yang menghubungkan orang dan mengelola energi tim. Dengan empati yang luar biasa, kamu memahami emosi rekan tim, memediasi konflik, dan mendorong kolaborasi. Tim dengan kamu menjadi unit yang benar-benar kohesif.",
       "strength1": "Empati yang luar biasa dan keterampilan interpersonal",
@@ -271,8 +302,10 @@
       "strength3": "Mediasi konflik dan fasilitasi kolaborasi",
       "weakness1": "Mungkin terlalu dipengaruhi oleh pendapat orang lain",
       "weakness2": "Mungkin sulit menegaskan posisimu dalam situasi konflik",
-      "bestMatch": "L", "bestMatchReason": "Arah yang jelas dari Pemimpin ditambah kemampuan hubunganmu membuat seluruh tim menjadi satu!",
-      "career1": "Spesialis HR / Manajer budaya organisasi", "career2": "Pelatih / Pelatih tim / Konselor",
+      "bestMatch": "L",
+      "bestMatchReason": "Arah yang jelas dari Pemimpin ditambah kemampuan hubunganmu membuat seluruh tim menjadi satu!",
+      "career1": "Spesialis HR / Manajer budaya organisasi",
+      "career2": "Pelatih / Pelatih tim / Konselor",
       "career3": "Customer Success Manager / Community Manager",
       "motivation": "Kamu merasakan kepuasan terbesar ketika rekan mengatakan mereka mendapat kekuatan berkat kamu. Koneksi dan kepercayaan antar manusia adalah kekuatan pendorongmu."
     }
