@@ -267,14 +267,6 @@ function renderResult() {
         <div class="motivation-text">${typData.motivation}</div>`;
     container.appendChild(motivCard);
 
-    // 10. Percentile Stat
-    const percentile = Math.floor(Math.random() * 15) + 3;
-    const percentileDiv = document.createElement('div');
-    percentileDiv.className = 'percentile-stat';
-    percentileDiv.innerHTML = i18n.t('result.percentileStat')
-        .replace('{percent}', percentile);
-    container.appendChild(percentileDiv);
-
     // 11. Related Tests
     const relatedDiv = document.createElement('div');
     relatedDiv.className = 'related-tests';
