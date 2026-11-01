@@ -268,29 +268,42 @@ function renderResult() {
     container.appendChild(motivCard);
 
     // 11. Related Tests
+    const lang = i18n.getCurrentLanguage() || 'ko';
     const relatedDiv = document.createElement('div');
     relatedDiv.className = 'related-tests';
     relatedDiv.innerHTML = `
         <h3 data-i18n="result.moreTests">${i18n.t('result.moreTests')}</h3>
         <div class="related-grid">
-            <a href="/stress-check/" class="related-card" style="--card-color:#3498db">
+            <a href="/stress-check/?lang=${encodeURIComponent(lang)}&source=work_style_result" class="related-card" style="--card-color:#3498db">
                 <span class="related-emoji">💆</span>
                 <span class="related-name" data-i18n="related.stressCheck">${i18n.t('related.stressCheck')}</span>
             </a>
-            <a href="/future-self/" class="related-card" style="--card-color:#ff6b9d">
+            <a href="/future-self/?lang=${encodeURIComponent(lang)}&source=work_style_result" class="related-card" style="--card-color:#ff6b9d">
                 <span class="related-emoji">⏳</span>
                 <span class="related-name" data-i18n="related.futureSelf">${i18n.t('related.futureSelf')}</span>
             </a>
-            <a href="/mbti-tips/" class="related-card" style="--card-color:#9b59b6">
+            <a href="/mbti-tips/?lang=${encodeURIComponent(lang)}&source=work_style_result" class="related-card" style="--card-color:#9b59b6">
                 <span class="related-emoji">💡</span>
                 <span class="related-name" data-i18n="related.mbtiTips">${i18n.t('related.mbtiTips')}</span>
             </a>
-            <a href="/iq-test/" class="related-card" style="--card-color:#f39c12">
+            <a href="/iq-test/?lang=${encodeURIComponent(lang)}&source=work_style_result" class="related-card" style="--card-color:#f39c12">
                 <span class="related-emoji">🧩</span>
                 <span class="related-name" data-i18n="related.iqTest">${i18n.t('related.iqTest')}</span>
             </a>
         </div>
     `;
+    relatedDiv.querySelectorAll('a.related-card').forEach(link => {
+        link.addEventListener('click', () => {
+            if (typeof gtag === 'function') {
+                gtag('event', 'content_cta_click', {
+                    cta_surface: 'work_style_related',
+                    destination: link.getAttribute('href'),
+                    source: 'work_style_result',
+                    lang: lang
+                });
+            }
+        });
+    });
     container.appendChild(relatedDiv);
 
     // 12. Share CTA
