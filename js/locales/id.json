@@ -12,7 +12,7 @@
     "meta2": "~5 menit",
     "meta3": "5 tipe",
     "startBtn": "Temukan Tipe Saya",
-    "socialProof": "3.100 orang telah menemukan tipe kerja mereka 💼",
+    "socialProof": "25 Skenario · Refleksi 100% Privat Lokal",
     "microCopy": "~5 menit · Bagikan hasil segera"
   },
   "quiz": {
@@ -309,5 +309,31 @@
       "career3": "Customer Success Manager / Community Manager",
       "motivation": "Kamu merasakan kepuasan terbesar ketika rekan mengatakan mereka mendapat kekuatan berkat kamu. Koneksi dan kepercayaan antar manusia adalah kekuatan pendorongmu."
     }
+  },
+  "about": {
+    "toggle": "Tentang Tes Gaya Kerja & Peran Tim Belbin",
+    "heading1": "Teori Peran Tim Belbin & Psikologi Organisasi",
+    "text1": "Penelitian Dr. Meredith Belbin membuktikan bahwa tim berkinerja tinggi terbentuk dari perpaduan peran yang saling melengkapi. Melalui 25 skenario dunia kerja, tes ini mengenali kecenderungan gaya kerja alamiah Anda.",
+    "boundary": "Batasan Refleksi Diri: Tes ini adalah sarana edukatif untuk meningkatkan komunikasi tim, bukan alat seleksi rekrutmen kerja formal atau psikotes klinis.",
+    "heading2": "Lima Arketipe Gaya Kerja Utama",
+    "aLeader": "👑 Pemimpin (Leader):",
+    "dLeader": "Memberikan kejelasan arah, menyatukan tim, dan berani mengambil keputusan strategis di saat genting.",
+    "aExecutor": "⚡ Eksekutor (Executor):",
+    "dExecutor": "Mengutamakan implementasi nyata, disiplin operasional, dan penyelesaian tugas tepat waktu.",
+    "aCreative": "🎨 Kreatif (Creative):",
+    "dCreative": "Menghadirkan pemikiran inovatif, menemukan peluang baru, dan mendobrak kebiasaan lama.",
+    "aAnalyst": "🔬 Analis (Analyst):",
+    "dAnalyst": "Mendasarkan langkah pada data akurat, mengkaji risiko, dan merumuskan solusi logis terstruktur.",
+    "aConnector": "🤝 Penghubung (Connector):",
+    "dConnector": "Membangun rasa aman psikologis, menjembatani komunikasi, dan meredakan dinamika konflik.",
+    "faqTitle": "Pertanyaan yang Sering Diajukan (FAQ)",
+    "faq1Q": "Apa dasar teori psikologi dari tes ini?",
+    "faq1A": "Tes ini diadaptasi dari teori peran tim Belbin dan prinsip-prinsip psikologi perilaku organisasi.",
+    "faq2Q": "Apakah tes ini dapat dijadikan acuan penilaian kerja resmi?",
+    "faq2A": "Tidak. Tes ini ditujukan untuk evaluasi diri dan membangun keselarasan tim secara positif.",
+    "faq3Q": "Apakah jawaban 25 skenario saya disimpan di server luar?",
+    "faq3A": "Tidak pernah. Semua proses penilaian berjalan secara lokal di peramban perangkat Anda.",
+    "reviewDate": "Tinjauan Editorial: November 2026",
+    "reviewTeam": "Seri Psikologi Organisasi DopaBrain"
   }
 }

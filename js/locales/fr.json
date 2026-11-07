@@ -12,7 +12,7 @@
     "meta2": "~5 min",
     "meta3": "5 types",
     "startBtn": "Découvrir mon type",
-    "socialProof": "3 100 personnes ont découvert leur type de travail 💼",
+    "socialProof": "25 Situations · Réflexion 100% Confidentielle",
     "microCopy": "~5 min · Partager les résultats immédiatement"
   },
   "quiz": {
@@ -309,5 +309,31 @@
       "career3": "Customer Success Manager / Community Manager",
       "motivation": "Tu ressens le plus grand accomplissement quand un collègue dit qu'il a gagné de la force grâce à toi. La connexion et la confiance entre les personnes est ta force motrice."
     }
+  },
+  "about": {
+    "toggle": "À propos du Test de Style de Travail & Rôles d'Équipe",
+    "heading1": "Théorie des Rôles d'Équipe de Belbin & Psychologie du Travail",
+    "text1": "Les recherches du Dr Meredith Belbin ont démontré que les équipes performantes reposent sur des rôles complémentaires. À travers 25 situations professionnelles, ce test analyse vos préférences comportementales au travail.",
+    "boundary": "Limite d'introspection : Cet outil est conçu pour le développement professionnel et la cohésion d'équipe. Il ne remplace pas une évaluation psychométrique formelle d'embauche.",
+    "heading2": "Cinq Profils de Style de Travail",
+    "aLeader": "👑 Leader :",
+    "dLeader": "Donne une vision claire, fédère l'équipe et prend des décisions stratégiques en contexte incertain.",
+    "aExecutor": "⚡ Exécuteur :",
+    "dExecutor": "Privilégie l'action concrète, la rigueur opérationnelle et le respect rigoureux des délais.",
+    "aCreative": "🎨 Créatif :",
+    "dCreative": "Apporte une pensée divergente, questionne le statu quo et imagine des solutions inédites.",
+    "aAnalyst": "🔬 Analyste :",
+    "dAnalyst": "S'appuie sur les données objectives, évalue les risques et optimise la logique des processus.",
+    "aConnector": "🤝 Fédérateur :",
+    "dConnector": "Instaure la sécurité psychologique, fluidifie la communication et désamorce les tensions.",
+    "faqTitle": "Foire Aux Questions (FAQ)",
+    "faq1Q": "Quelles théories sous-tendent ce test de style de travail ?",
+    "faq1A": "Il s'inspire des travaux de Belbin sur les rôles d'équipe et de la psychologie des organisations.",
+    "faq2Q": "Ce test peut-il servir à une évaluation de recrutement ?",
+    "faq2A": "Non. Il s'agit d'un support d'auto-évaluation et d'échange professionnel sans visée certifiante.",
+    "faq3Q": "Mes réponses sont-elles transmises à des serveurs tiers ?",
+    "faq3A": "Jamais. Vos 25 réponses sont calculées intégralement en local dans votre navigateur.",
+    "reviewDate": "Revue Éditoriale : Novembre 2026",
+    "reviewTeam": "DopaBrain Psychologie du Travail"
   }
 }

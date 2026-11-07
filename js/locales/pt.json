@@ -12,7 +12,7 @@
     "meta2": "~5 min",
     "meta3": "5 tipos",
     "startBtn": "Descobrir meu tipo",
-    "socialProof": "3.100 pessoas descobriram seu tipo de trabalho 💼",
+    "socialProof": "25 Cenários · Reflexão 100% Privada",
     "microCopy": "~5 min · Compartilhe resultados imediatamente"
   },
   "quiz": {
@@ -309,5 +309,31 @@
       "career3": "Customer Success Manager / Community Manager",
       "motivation": "Sente a maior realização quando um colega diz que ganhou forças graças a você. Conexão e confiança entre pessoas é sua força motriz."
     }
+  },
+  "about": {
+    "toggle": "Sobre o Teste de Estilo de Trabalho e Papéis de Equipe",
+    "heading1": "Teoria dos Papéis de Equipe de Belbin e Psicologia Organizacional",
+    "text1": "O estudo do Dr. Meredith Belbin revelou que equipes de alta performance dependem da complementaridade comportamental. Por meio de 25 dilemas corporativos, este teste mapeia suas tendências profissionais.",
+    "boundary": "Aviso de Autodescoberta: Esta ferramenta destina-se à reflexão educativa e à melhoria da comunicação em equipe, não sendo um instrumento formal de recrutamento.",
+    "heading2": "Cinco Arquétipos de Estilo de Trabalho",
+    "aLeader": "👑 Líder (Leader):",
+    "dLeader": "Define o rumo estratégico, mobiliza a equipe e decide com firmeza em cenários incertos.",
+    "aExecutor": "⚡ Executor (Executor):",
+    "dExecutor": "Foca na implementação ágil, disciplina operacional e entrega de resultados confiáveis.",
+    "aCreative": "🎨 Criativo (Creative):",
+    "dCreative": "Utiliza pensamento divergente, propõe abordagens inovadoras e desafia padrões estagnados.",
+    "aAnalyst": "🔬 Analista (Analyst):",
+    "dAnalyst": "Garante rigor analítico com base em dados, mapeia riscos e aprimora estruturas lógicas.",
+    "aConnector": "🤝 Conector (Connector):",
+    "dConnector": "Promove segurança psicológica, aproxima pessoas e resolve atritos interpessoais.",
+    "faqTitle": "Perguntas Frequentes (FAQ)",
+    "faq1Q": "Em quais modelos teóricos o teste se apoia?",
+    "faq1A": "Baseia-se nos papéis de equipe de Meredith Belbin e na psicologia organizacional aplicada.",
+    "faq2Q": "O teste substitui exames de seleção ou promoção?",
+    "faq2A": "Não. É um recurso educativo para apoiar o autoconhecimento e a colaboração no ambiente de trabalho.",
+    "faq3Q": "Minhas respostas são guardadas em servidores externos?",
+    "faq3A": "De forma alguma. Toda a avaliação dos 25 itens ocorre 100% de forma local no seu dispositivo.",
+    "reviewDate": "Revisão Editorial: Novembro de 2026",
+    "reviewTeam": "DopaBrain Psicologia Organizacional"
   }
 }

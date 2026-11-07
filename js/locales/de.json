@@ -12,7 +12,7 @@
     "meta2": "~5 Min.",
     "meta3": "5 Typen",
     "startBtn": "Meinen Typ finden",
-    "socialProof": "3.100 Personen haben ihren Arbeitstyp entdeckt 💼",
+    "socialProof": "25 Szenarien · 100% Lokale Selbstreflexion",
     "microCopy": "~5 Min. · Ergebnisse sofort teilen"
   },
   "quiz": {
@@ -309,5 +309,31 @@
       "career3": "Customer Success Manager / Community Manager",
       "motivation": "Du erlebst die größte Erfüllung, wenn ein Kollege sagt, er habe durch dich Kraft gewonnen. Verbindung und Vertrauen zwischen Menschen ist deine treibende Kraft."
     }
+  },
+  "about": {
+    "toggle": "Über den Arbeitsstil-Test & Teamrollen-Modelle",
+    "heading1": "Belbin-Teamrollen & Arbeits- und Organisationspsychologie",
+    "text1": "Die Forschung von Dr. Meredith Belbin belegt, dass Spitzenleistungen im Team durch komplementäre Verhaltensrollen entstehen. Anhand von 25 praxisnahen Szenarien identifiziert dieser Test deine natürlichen Handlungsmuster.",
+    "boundary": "Hinweis zur Selbsterkenntnis: Dieses Instrument dient der persönlichen Reflexion und Teamentwicklung. Es ersetzt keine eignungsdiagnostischen Einstellungsverfahren.",
+    "heading2": "Fünf Zentrale Arbeitsstil-Archetypen",
+    "aLeader": "👑 Leader (Führung):",
+    "dLeader": "Gibt strategische Orientierung, eint das Team und entscheidet entschlossen bei Unklarheiten.",
+    "aExecutor": "⚡ Executor (Umsetzung):",
+    "dExecutor": "Setzt Pläne pragmatisch und zuverlässig um und sorgt für termingerechte Fertigstellung.",
+    "aCreative": "🎨 Creative (Innovation):",
+    "dCreative": "Bringt unkonventionelle Ideen ein und bricht starre Denkmuster lösungsorientiert auf.",
+    "aAnalyst": "🔬 Analyst (Analyse):",
+    "dAnalyst": "Stützt Entscheidungen auf fundierte Daten, erkennt Risiken und optimiert Arbeitslogiken.",
+    "aConnector": "🤝 Connector (Beziehung):",
+    "dConnector": "Schafft psychologische Sicherheit, moderiert Meinungsverschiedenheiten und stärkt den Teamgeist.",
+    "faqTitle": "Häufig gestellte Fragen (FAQ)",
+    "faq1Q": "Auf welchen wissenschaftlichen Modellen basiert der Test?",
+    "faq1A": "Er stützt sich auf Belbins Teamrollen-Modell und Erkenntnisse der modernen Arbeitspsychologie.",
+    "faq2Q": "Eignet sich der Test für formelle Einstellungsverfahren?",
+    "faq2A": "Nein. Er dient dem gegenseitigen Verständnis im Team und ist kein zertifiziertes Eignungsdiagnostikum.",
+    "faq3Q": "Werden meine Antworten auf externen Servern gespeichert?",
+    "faq3A": "Nein. Sämtliche 25 Antworten werden ausschließlich lokal in deinem Browser ausgewertet.",
+    "reviewDate": "Redaktionelle Prüfung: November 2026",
+    "reviewTeam": "DopaBrain Arbeitspsychologie"
   }
 }

@@ -7,7 +7,7 @@
     <title data-i18n="app.title">Work Style Test - Free Personality Quiz | DopaBrain</title>
     <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3600813755953882" crossorigin="anonymous"></script>
     <meta name="description" content="Discover your work personality through 25 workplace scenarios. Are you a Leader, Executor, Creative, Analyst, or Connector? Share with coworkers. Try free!">
-    <meta name="dateModified" content="2026-10-24">
+    <meta name="dateModified" content="2026-11-07">
     <meta name="keywords" content="직장인 유형 테스트, 업무 스타일, work style test, 직장인 테스트, 직업 성격 테스트, 리더형, 실행형, 창의형, 분석형, 관계형">
 
     <!-- Open Graph -->
@@ -229,7 +229,7 @@
         /* ==================== INTRO SCREEN ==================== */
         .intro-container {
             max-width: 480px; margin: 0 auto;
-            padding: 80px 24px 40px;
+            padding: 80px 24px 96px;
             display: flex; flex-direction: column;
             align-items: center; text-align: center; gap: 20px;
         }
@@ -720,6 +720,38 @@
         .percentile-stat { text-align: center; margin: 16px 0 0; font-size: 13px; color: var(--text-muted); }
         .percentile-stat strong { color: var(--primary-light); font-size: 15px; }
     </style>
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "What organizational psychology models inform the Work Style Test?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The test draws on Meredith Belbin's team role theory, Mintzberg's managerial archetypes, and occupational psychology to evaluate workplace behavioral preferences across Leader, Executor, Creative, Analyst, and Connector dimensions."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Is this test suitable for formal employment screening or performance appraisal?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "No. The Work Style Test is an educational self-reflection prompt designed to enhance team communication and self-awareness. It is not an employment screening tool, psychometric certification, or clinical workplace evaluation."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Are my 25 scenario responses and work style results tracked on external servers?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Never. All 25 workplace scenario answers and dimension scores are computed locally within your device browser. No personal answers or workplace profiles are transmitted externally."
+          }
+        }
+      ]
+    }
+    </script>
 </head>
 <body>
     <a href="#main-content" class="skip-link" data-i18n="app.skipLink">본문 바로가기</a>
@@ -753,7 +785,8 @@
     </div>
 
     <!-- Intro Screen -->
-    <div id="intro-screen" class="screen active" id="main-content">
+    <main id="main-content">
+    <div id="intro-screen" class="screen active">
         <div class="intro-container">
             <div class="intro-icon">💼</div>
             <h1 class="intro-title" data-i18n="intro.title">직장인 유형<br>테스트</h1>
@@ -772,6 +805,47 @@
             </div>
             <button id="btn-start" class="btn-start btn-start-pulse" data-i18n="intro.startBtn">나의 유형 찾기</button>
             <p class="micro-copy" data-i18n="intro.microCopy">약 5분 소요 · 결과 즉시 공유 가능</p>
+
+            <!-- Organizational Psychology & E-E-A-T Guide Section -->
+            <section class="about-section collapsible-section" id="about-section" style="width:100%;max-width:480px;margin:24px auto 0;text-align:left;">
+                <details style="background:rgba(255,255,255,0.03);border:1px solid rgba(255,255,255,0.08);border-radius:14px;overflow:hidden;">
+                    <summary data-i18n="about.toggle" style="min-height:48px;padding:14px 18px;color:var(--primary-light,#818cf8);cursor:pointer;font-size:14px;font-weight:700;list-style:none;display:flex;align-items:center;justify-content:space-between;box-sizing:border-box;touch-action:manipulation;">About the Work Style Test & Team Roles</summary>
+                    <div class="about-content" style="padding:0 18px 20px;box-sizing:border-box;">
+                        <h2 data-i18n="about.heading1" style="font-size:14px;color:#fff;margin:14px 0 8px;font-weight:700;border-left:3px solid var(--primary,#6366f1);padding-left:8px;">Belbin Team Roles & Workplace Behavioral Psychology</h2>
+                        <p data-i18n="about.text1" style="font-size:13px;line-height:1.7;color:var(--text-muted,#94a3b8);margin:0 0 12px;">Dr. Meredith Belbin's pioneering organizational research showed that high-performing teams require complementary cognitive and behavioral contributions. Rather than solitary geniuses, balanced teams thrive when diverse operational, strategic, and interpersonal roles collaborate effectively.</p>
+                        <p class="about-note" data-i18n="about.boundary" style="font-size:12px;font-style:italic;color:var(--text-dim,#64748b);border-left:3px solid var(--primary,#6366f1);padding-left:10px;margin:12px 0 16px;line-height:1.6;">Self-Awareness Boundary: This self-assessment is an educational self-reflection prompt. It is not an employment screening instrument, clinical diagnostic tool, or performance evaluation substitute.</p>
+
+                        <h3 data-i18n="about.heading2" style="font-size:14px;color:#fff;margin:18px 0 10px;font-weight:700;border-left:3px solid var(--primary,#6366f1);padding-left:8px;">Five Core Work Style Archetypes</h3>
+                        <ul class="about-list" style="list-style:none;padding:0;margin:0 0 16px;">
+                            <li style="padding:7px 0;font-size:13px;line-height:1.6;color:var(--text-muted,#94a3b8);border-bottom:1px solid rgba(255,255,255,0.05);"><strong data-i18n="about.aLeader" style="color:var(--type-L,#f59e0b);">👑 Leader:</strong> <span data-i18n="about.dLeader">Provides directional clarity, rallies team alignment, and makes decisive strategic decisions under uncertainty.</span></li>
+                            <li style="padding:7px 0;font-size:13px;line-height:1.6;color:var(--text-muted,#94a3b8);border-bottom:1px solid rgba(255,255,255,0.05);"><strong data-i18n="about.aExecutor" style="color:var(--type-E,#ef4444);">⚡ Executor:</strong> <span data-i18n="about.dExecutor">Champions pragmatic implementation, operational discipline, and reliable milestone execution.</span></li>
+                            <li style="padding:7px 0;font-size:13px;line-height:1.6;color:var(--text-muted,#94a3b8);border-bottom:1px solid rgba(255,255,255,0.05);"><strong data-i18n="about.aCreative" style="color:var(--type-C,#ec4899);">🎨 Creative:</strong> <span data-i18n="about.dCreative">Drives divergent innovation, identifies unconventional opportunities, and challenges stagnant workflows.</span></li>
+                            <li style="padding:7px 0;font-size:13px;line-height:1.6;color:var(--text-muted,#94a3b8);border-bottom:1px solid rgba(255,255,255,0.05);"><strong data-i18n="about.aAnalyst" style="color:var(--type-A,#06b6d4);">🔬 Analyst:</strong> <span data-i18n="about.dAnalyst">Ensures empirical rigor, conducts objective risk assessments, and optimizes structured logical models.</span></li>
+                            <li style="padding:7px 0;font-size:13px;line-height:1.6;color:var(--text-muted,#94a3b8);border-bottom:1px solid rgba(255,255,255,0.05);"><strong data-i18n="about.aConnector" style="color:var(--type-R,#22c55e);">🤝 Connector:</strong> <span data-i18n="about.dConnector">Builds psychological safety, bridges cross-functional communication, and resolves interpersonal tensions.</span></li>
+                        </ul>
+
+                        <h3 data-i18n="about.faqTitle" style="font-size:14px;color:#fff;margin:18px 0 10px;font-weight:700;border-left:3px solid var(--primary,#6366f1);padding-left:8px;">Frequently Asked Questions</h3>
+                        <div class="faq-section" style="display:flex;flex-direction:column;gap:10px;margin-bottom:16px;">
+                            <div class="faq-item" style="background:rgba(255,255,255,0.03);border:1px solid rgba(255,255,255,0.06);border-radius:10px;padding:12px 14px;">
+                                <strong data-i18n="about.faq1Q" style="display:block;font-size:13px;font-weight:600;color:#fff;margin-bottom:6px;">Q: What organizational psychology models inform the Work Style Test?</strong>
+                                <p data-i18n="about.faq1A" style="font-size:12px !important;line-height:1.6 !important;color:var(--text-muted,#94a3b8) !important;margin:0 !important;">A: The test draws on Meredith Belbin's team role theory, Mintzberg's managerial archetypes, and occupational psychology to evaluate workplace behavioral preferences across Leader, Executor, Creative, Analyst, and Connector dimensions.</p>
+                            </div>
+                            <div class="faq-item" style="background:rgba(255,255,255,0.03);border:1px solid rgba(255,255,255,0.06);border-radius:10px;padding:12px 14px;">
+                                <strong data-i18n="about.faq2Q" style="display:block;font-size:13px;font-weight:600;color:#fff;margin-bottom:6px;">Q: Is this test suitable for formal employment screening or performance appraisal?</strong>
+                                <p data-i18n="about.faq2A" style="font-size:12px !important;line-height:1.6 !important;color:var(--text-muted,#94a3b8) !important;margin:0 !important;">A: No. The Work Style Test is an educational self-reflection prompt designed to enhance team communication and self-awareness. It is not an employment screening tool, psychometric certification, or clinical workplace evaluation.</p>
+                            </div>
+                            <div class="faq-item" style="background:rgba(255,255,255,0.03);border:1px solid rgba(255,255,255,0.06);border-radius:10px;padding:12px 14px;">
+                                <strong data-i18n="about.faq3Q" style="display:block;font-size:13px;font-weight:600;color:#fff;margin-bottom:6px;">Q: Are my 25 scenario responses and work style results tracked on external servers?</strong>
+                                <p data-i18n="about.faq3A" style="font-size:12px !important;line-height:1.6 !important;color:var(--text-muted,#94a3b8) !important;margin:0 !important;">A: Never. All 25 workplace scenario answers and dimension scores are computed locally within your device browser. No personal answers or workplace profiles are transmitted externally.</p>
+                            </div>
+                        </div>
+
+                        <div class="about-review-meta" style="font-size:11px;color:var(--text-dim,#64748b);margin-top:16px;padding-top:12px;border-top:1px solid rgba(255,255,255,0.08);">
+                            <span data-i18n="about.reviewDate">Editorial Review: November 2026</span> • <span data-i18n="about.reviewTeam">DopaBrain Organizational Psychology Series</span>
+                        </div>
+                    </div>
+                </details>
+            </section>
         </div>
     </div>
 
@@ -809,6 +883,8 @@
     <div id="result-screen" class="screen">
         <div class="result-container" id="result-container"></div>
     </div>
+
+</main>
 
     <!-- Share Modal -->
     <div class="overlay hidden" id="share-modal">

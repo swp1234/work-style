@@ -12,7 +12,7 @@
     "meta2": "~5 dak",
     "meta3": "5 tip",
     "startBtn": "Tipimi Bul",
-    "socialProof": "3.100 kişi iş tipini keşfetti 💼",
+    "socialProof": "25 Senaryo · %100 Yerel Bireysel Değerlendirme",
     "microCopy": "~5 dak · Anında paylaş"
   },
   "quiz": {
@@ -309,5 +309,31 @@
       "career3": "Müşteri Başarı Yöneticisi / Topluluk Yöneticisi",
       "motivation": "Bir meslektaşın sayende güç kazandığını söylediğinde en büyük tatmini hissedersin. İnsanlar arası bağlantı ve güven senin itici gücündür."
     }
+  },
+  "about": {
+    "toggle": "Çalışma Tarzı Testi ve Ekip Rolleri Hakkında",
+    "heading1": "Belbin Ekip Rolleri Kuramı ve Örgütsel Davranış Psikolojisi",
+    "text1": "Dr. Meredith Belbin'in öncü araştırmaları, yüksek performanslı takımların birbirini tamamlayan roller sayesinde başarıya ulaştığını gösterir. 25 iş senaryosuyla kendi güçlü çalışma tarzınızı keşfedin.",
+    "boundary": "Öz Farkındalık Sınırı: Bu test kişisel gelişim ve ekip içi uyumu desteklemek içindir; resmi işe alım ya da performans değerlendirme testi değildir.",
+    "heading2": "Beş Temel Çalışma Tarzı Arketipleri",
+    "aLeader": "👑 Lider (Leader):",
+    "dLeader": "Stratejik vizyon çizer, ekibi hedefe odaklar ve belirsizlik anında kararlılıkla yön verir.",
+    "aExecutor": "⚡ Uygulayıcı (Executor):",
+    "dExecutor": "Pratik uygulamaya, operasyonel disipline ve görevlerin eksiksiz tamamlanmasına odaklanır.",
+    "aCreative": "🎨 Yaratıcı (Creative):",
+    "dCreative": "Farklı düşünce pencereleri açar, yenilikçi fikirler üretir ve tıkanıklıkları çözer.",
+    "aAnalyst": "🔬 Analist (Analyst):",
+    "dAnalyst": "Verilere dayalı objektif analizler yapar, riskleri öngörür ve süreçleri rasyonelleştirir.",
+    "aConnector": "🤝 Bağlantı Kuran (Connector):",
+    "dConnector": "Psikolojik güven ortamı sağlar, birimler arası iletişimi güçlendirir ve çatışmaları çözer.",
+    "faqTitle": "Sıkça Sorulan Sorular (SSS)",
+    "faq1Q": "Bu test hangi kuramsal çerçeveden yararlanmaktadır?",
+    "faq1A": "Meredith Belbin'in takım rolleri teorisi ve modern örgütsel davranış psikolojisi ilkelerinden yararlanır.",
+    "faq2Q": "İşe alım veya resmi performans süreçlerinde kullanılabilir mi?",
+    "faq2A": "Hayır. Yalnızca ekip iletişimi ve bireysel farkındalık amaçlı geliştirilmiş eğitici bir araçtır.",
+    "faq3Q": "25 senaryoya verdiğim yanıtlar sunucularda saklanıyor mu?",
+    "faq3A": "Asla. Tüm analizler %100 yerel olarak tarayıcınız içinde gerçekleştirilir.",
+    "reviewDate": "Editöryal İnceleme: Kasım 2026",
+    "reviewTeam": "DopaBrain Örgütsel Psikoloji Serisi"
   }
 }

@@ -12,7 +12,7 @@
     "meta2": "~5 min",
     "meta3": "5 tipos",
     "startBtn": "Descubrir mi tipo",
-    "socialProof": "3,100 personas han descubierto su tipo laboral 💼",
+    "socialProof": "25 Escenarios · Reflexión 100% Privada",
     "microCopy": "~5 min · Comparte resultados al instante"
   },
   "quiz": {
@@ -309,5 +309,31 @@
       "career3": "Customer Success Manager / Community Manager",
       "motivation": "Sientes la mayor satisfacción cuando un colega dice que ganó fuerzas gracias a ti. La conexión y la confianza entre personas es tu fuerza motriz."
     }
+  },
+  "about": {
+    "toggle": "Sobre el Test de Estilo de Trabajo y Roles de Equipo",
+    "heading1": "Teoría de Roles de Equipo de Belbin y Psicología Organizacional",
+    "text1": "Las investigaciones del Dr. Meredith Belbin demuestran que los equipos de alto rendimiento prosperan gracias a roles complementarios. Este test analiza tus tendencias conductuales a través de 25 situaciones laborales cotidianas.",
+    "boundary": "Aviso de Autoconocimiento: Esta herramienta es una guía educativa de reflexión laboral. No sustituye evaluaciones psicométricas de selección de personal ni auditorías de rendimiento.",
+    "heading2": "Cinco Arquetipos de Estilo de Trabajo",
+    "aLeader": "👑 Líder (Leader):",
+    "dLeader": "Aporta claridad estratégica, alinea al equipo y toma decisiones firmes bajo incertidumbre.",
+    "aExecutor": "⚡ Ejecutor (Executor):",
+    "dExecutor": "Prioriza la implementación práctica, la disciplina y el cumplimiento riguroso de objetivos.",
+    "aCreative": "🎨 Creativo (Creative):",
+    "dCreative": "Aporta pensamiento divergente, desafía procesos obsoletos y propone soluciones innovadoras.",
+    "aAnalyst": "🔬 Analista (Analyst):",
+    "dAnalyst": "Aplica rigor empírico, evalúa riesgos con datos objetivos y optimiza modelos lógicos.",
+    "aConnector": "🤝 Conector (Connector):",
+    "dConnector": "Construye seguridad psicológica, facilita la comunicación interdepartamental y resuelve conflictos.",
+    "faqTitle": "Preguntas Frecuentes (FAQ)",
+    "faq1Q": "¿Qué fundamentos teóricos sustentan este test?",
+    "faq1A": "Se basa en la teoría de roles de equipo de Belbin y la psicología del comportamiento organizacional.",
+    "faq2Q": "¿Es aplicable en procesos de selección de personal?",
+    "faq2A": "No. Es un recurso formativo para el desarrollo personal y la colaboración en equipo, sin validez clínica.",
+    "faq3Q": "¿Se transmiten mis respuestas a servidores externos?",
+    "faq3A": "Nunca. Las 25 respuestas y perfiles se procesan al 100% de forma local en tu navegador.",
+    "reviewDate": "Revisión Editorial: Noviembre 2026",
+    "reviewTeam": "DopaBrain Psicología Organizacional"
   }
 }

@@ -12,7 +12,7 @@
     "meta2": "~5 min",
     "meta3": "5 types",
     "startBtn": "Find My Work Type",
-    "socialProof": "3,100 people have discovered their work type 💼",
+    "socialProof": "25 Scenarios · 100% Private Self-Reflection",
     "microCopy": "~5 min · Share results instantly"
   },
   "quiz": {
@@ -309,5 +309,31 @@
       "career3": "Customer Success Manager / Community Manager",
       "motivation": "You feel the greatest fulfillment when a colleague says they gained strength because of you, or when you successfully mediate a conflict and the team unites again. Connection and trust between people is your driving force."
     }
+  },
+  "about": {
+    "toggle": "About the Work Style Test & Team Roles",
+    "heading1": "Belbin Team Roles & Workplace Behavioral Psychology",
+    "text1": "Dr. Meredith Belbin's pioneering organizational research showed that high-performing teams require complementary cognitive and behavioral contributions. Rather than solitary geniuses, balanced teams thrive when diverse operational, strategic, and interpersonal roles collaborate effectively.",
+    "boundary": "Self-Awareness Boundary: This self-assessment is an educational self-reflection prompt. It is not an employment screening instrument, clinical diagnostic tool, or performance evaluation substitute.",
+    "heading2": "Five Core Work Style Archetypes",
+    "aLeader": "👑 Leader:",
+    "dLeader": "Provides directional clarity, rallies team alignment, and makes decisive strategic decisions under uncertainty.",
+    "aExecutor": "⚡ Executor:",
+    "dExecutor": "Champions pragmatic implementation, operational discipline, and reliable milestone execution.",
+    "aCreative": "🎨 Creative:",
+    "dCreative": "Drives divergent innovation, identifies unconventional opportunities, and challenges stagnant workflows.",
+    "aAnalyst": "🔬 Analyst:",
+    "dAnalyst": "Ensures empirical rigor, conducts objective risk assessments, and optimizes structured logical models.",
+    "aConnector": "🤝 Connector:",
+    "dConnector": "Builds psychological safety, bridges cross-functional communication, and resolves interpersonal tensions.",
+    "faqTitle": "Frequently Asked Questions",
+    "faq1Q": "What organizational psychology models inform the Work Style Test?",
+    "faq1A": "The test draws on Meredith Belbin's team role theory, Mintzberg's managerial archetypes, and occupational psychology to evaluate workplace behavioral preferences across Leader, Executor, Creative, Analyst, and Connector dimensions.",
+    "faq2Q": "Is this test suitable for formal employment screening or performance appraisal?",
+    "faq2A": "No. The Work Style Test is an educational self-reflection prompt designed to enhance team communication and self-awareness. It is not an employment screening tool, psychometric certification, or clinical workplace evaluation.",
+    "faq3Q": "Are my 25 scenario responses and work style results tracked on external servers?",
+    "faq3A": "Never. All 25 workplace scenario answers and dimension scores are computed locally within your device browser. No personal answers or workplace profiles are transmitted externally.",
+    "reviewDate": "Editorial Review: November 2026",
+    "reviewTeam": "DopaBrain Organizational Psychology Series"
   }
 }
