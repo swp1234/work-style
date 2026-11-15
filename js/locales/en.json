@@ -38,8 +38,7 @@
     "motivationTitle": "What Makes You Thrive",
     "shareBtn": "📤 Share Results",
     "retryBtn": "🔄 Retake Test",
-    "moreTests": "Explore More Tests",
-    "percentileStat": "Only <strong>{percent}%</strong> of test-takers got the same type"
+    "moreTests": "Explore More Tests"
   },
   "related": {
     "mbtiCareer": "MBTI Career",
@@ -61,7 +60,8 @@
     "kakaotalk": "KakaoTalk",
     "copyLink": "Copy Link",
     "nativeShare": "Share",
-    "copied": "Link copied!"
+    "copied": "Link copied!",
+    "downloadCard": "Save Story Card"
   },
   "game": {
     "back": "DopaBrain Home"
@@ -335,5 +335,15 @@
     "faq3A": "Never. All 25 workplace scenario answers and dimension scores are computed locally within your device browser. No personal answers or workplace profiles are transmitted externally.",
     "reviewDate": "Editorial Review: November 2026",
     "reviewTeam": "DopaBrain Organizational Psychology Series"
+  },
+  "curated": {
+    "title": "Curated Reading for Workplace Growth",
+    "subtitle": "Evidence-backed classics to sharpen execution, strategic clarity, and team collaboration.",
+    "book1Title": "The Effective Executive — Peter F. Drucker",
+    "book1Desc": "Timeless framework for focus, decision-making, and high-impact execution",
+    "book2Title": "The Five Dysfunctions of a Team — Patrick Lencioni",
+    "book2Desc": "Practical leadership fable on building trust, healthy debate, and team accountability",
+    "cta": "View Book",
+    "disclosure": "Affiliate disclosure: As an Amazon Associate, DopaBrain may earn from qualifying purchases."
   }
 }

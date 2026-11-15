@@ -38,8 +38,7 @@
     "motivationTitle": "Ce qui te fait s'épanouir",
     "shareBtn": "📤 Partager les résultats",
     "retryBtn": "🔄 Recommencer le test",
-    "moreTests": "Découvre d'autres tests",
-    "percentileStat": "Seulement <strong>{percent}%</strong> des participants ont obtenu le même type"
+    "moreTests": "Découvre d'autres tests"
   },
   "related": {
     "mbtiCareer": "MBTI Carrière",
@@ -61,7 +60,8 @@
     "kakaotalk": "KakaoTalk",
     "copyLink": "Copier le lien",
     "nativeShare": "Partager",
-    "copied": "Lien copié !"
+    "copied": "Lien copié !",
+    "downloadCard": "Enregistrer la Carte"
   },
   "game": {
     "back": "Accueil DopaBrain"
@@ -335,5 +335,15 @@
     "faq3A": "Jamais. Vos 25 réponses sont calculées intégralement en local dans votre navigateur.",
     "reviewDate": "Revue Éditoriale : Novembre 2026",
     "reviewTeam": "DopaBrain Psychologie du Travail"
+  },
+  "curated": {
+    "title": "Lectures Recommandées pour votre Carrière",
+    "subtitle": "Des ouvrages de référence pour renforcer votre exécution et votre synergie d’équipe.",
+    "book1Title": "Devenez un dirigeant efficace — Peter F. Drucker",
+    "book1Desc": "Méthode intemporelle de priorisation, concentration et prise de décision",
+    "book2Title": "Optimisez votre équipe — Patrick Lencioni",
+    "book2Desc": "Guide concret pour bâtir la confiance et l’engagement collectif au travail",
+    "cta": "Voir le livre",
+    "disclosure": "Lien affilié : En tant que Partenaire Amazon, DopaBrain réalise un bénéfice sur les achats éligibles."
   }
 }

@@ -38,8 +38,7 @@
     "motivationTitle": "让你充满动力的事",
     "shareBtn": "📤 分享结果",
     "retryBtn": "🔄 重新测试",
-    "moreTests": "探索更多测试",
-    "percentileStat": "仅 <strong>{percent}%</strong> 的测试者获得了相同类型"
+    "moreTests": "探索更多测试"
   },
   "related": {
     "mbtiCareer": "MBTI 职业",
@@ -61,7 +60,8 @@
     "kakaotalk": "KakaoTalk",
     "copyLink": "复制链接",
     "nativeShare": "分享",
-    "copied": "链接已复制！"
+    "copied": "链接已复制！",
+    "downloadCard": "保存结果卡片"
   },
   "game": {
     "back": "DopaBrain 首页"
@@ -335,5 +335,15 @@
     "faq3A": "绝不。所有答题计算完全在您的浏览器本地进行，绝不收集或上传任何个人作答记录。",
     "reviewDate": "学术与编辑审阅：2026年11月",
     "reviewTeam": "DopaBrain 组织心理学系列"
+  },
+  "curated": {
+    "title": "职场进阶推荐书单",
+    "subtitle": "帮助你打磨执行力、沟通协作与团队影响力的经典读物。",
+    "book1Title": "卓有成效的管理者（彼得·德鲁克）",
+    "book1Desc": "聚焦时间管理、要事优先与科学决策的经典之作",
+    "book2Title": "团队协作的五大障碍（帕特里克·兰西奥尼）",
+    "book2Desc": "破解团队信任危机、激发高效协作与责任感的实战指南",
+    "cta": "查看书籍",
+    "disclosure": "联盟披露：通过亚马逊联盟链接下单，我们可能会获得少额佣金支持。"
   }
 }

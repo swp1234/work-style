@@ -38,8 +38,7 @@
     "motivationTitle": "나를 행복하게 하는 것",
     "shareBtn": "📤 결과 공유하기",
     "retryBtn": "🔄 다시 테스트하기",
-    "moreTests": "관련 테스트 더 보기",
-    "percentileStat": "응시자 중 <strong>{percent}%</strong>만이 같은 유형을 받았습니다"
+    "moreTests": "관련 테스트 더 보기"
   },
   "related": {
     "mbtiCareer": "MBTI 직업",
@@ -61,7 +60,8 @@
     "kakaotalk": "카카오톡",
     "copyLink": "링크 복사",
     "nativeShare": "공유하기",
-    "copied": "링크가 복사되었습니다!"
+    "copied": "링크가 복사되었습니다!",
+    "downloadCard": "결과 카드 이미지 저장"
   },
   "game": {
     "back": "DopaBrain 홈"
@@ -335,5 +335,15 @@
     "faq3A": "전혀 저장되지 않습니다. 25개 문항에 대한 응답과 유형 점수 산출은 사용자의 기기 브라우저에서 100% 로컬로 처리되며 외부로 전송되지 않습니다.",
     "reviewDate": "학술 및 편집 검토: 2026년 11월",
     "reviewTeam": "DopaBrain 조직 심리학 시리즈"
+  },
+  "curated": {
+    "title": "커리어 성장을 위한 추천 도서",
+    "subtitle": "업무 스타일과 팀 협업 역량을 한 단계 끌어올려 줄 검증된 필독서입니다.",
+    "book1Title": "자기경영노트 (피터 드러커)",
+    "book1Desc": "효과적인 실행력, 우선순위 관리, 목표 지향 의사결정의 고전",
+    "book2Title": "팀의 5가지 저해 요인 (패트릭 렌시오니)",
+    "book2Desc": "신뢰 기반 협업과 갈등 조율로 팀 성과를 높이는 실전 가이드",
+    "cta": "도서 보기",
+    "disclosure": "이 링크는 Amazon 제휴 링크입니다. 구매 시 운영자에게 소정의 수수료가 지급될 수 있습니다."
   }
 }

@@ -38,8 +38,7 @@
     "motivationTitle": "Seni Geliştiren Şeyler",
     "shareBtn": "📤 Sonuçları Paylaş",
     "retryBtn": "🔄 Testi Tekrarla",
-    "moreTests": "Daha Fazla Test Keşfet",
-    "percentileStat": "Katılımcıların sadece <strong>{percent}%</strong>'i aynı tipi aldı"
+    "moreTests": "Daha Fazla Test Keşfet"
   },
   "related": {
     "mbtiCareer": "MBTI Kariyer",
@@ -61,7 +60,8 @@
     "kakaotalk": "KakaoTalk",
     "copyLink": "Bağlantıyı Kopyala",
     "nativeShare": "Paylaş",
-    "copied": "Bağlantı kopyalandı!"
+    "copied": "Bağlantı kopyalandı!",
+    "downloadCard": "Sonuç Kartını Kaydet"
   },
   "game": {
     "back": "DopaBrain Ana Sayfa"
@@ -335,5 +335,15 @@
     "faq3A": "Asla. Tüm analizler %100 yerel olarak tarayıcınız içinde gerçekleştirilir.",
     "reviewDate": "Editöryal İnceleme: Kasım 2026",
     "reviewTeam": "DopaBrain Örgütsel Psikoloji Serisi"
+  },
+  "curated": {
+    "title": "İş Hayatında Gelişim İçin Önerilen Kitaplar",
+    "subtitle": "Uygulama gücü, karar alma ve ekip uyumunu güçlendiren temel kaynaklar.",
+    "book1Title": "Etkin Yönetici — Peter F. Drucker",
+    "book1Desc": "Önceliklendirme, odaklanma ve yüksek etkili karar alma için temel rehber",
+    "book2Title": "Ekiplerin Beş Temel Aksaklığı — Patrick Lencioni",
+    "book2Desc": "Ekip içi güven, yapıcı tartışma ve ortak sorumluluk geliştirme kılavuzu",
+    "cta": "Kitabı İncele",
+    "disclosure": "Ortaklık bildirimi: Amazon İş Ortağı olarak uygun satın alımlardan gelir elde edebiliriz."
   }
 }

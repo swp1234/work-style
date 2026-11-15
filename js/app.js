@@ -286,9 +286,9 @@ function renderResult() {
                 <span class="related-emoji">💡</span>
                 <span class="related-name" data-i18n="related.mbtiTips">${i18n.t('related.mbtiTips')}</span>
             </a>
-            <a href="/iq-test/?lang=${encodeURIComponent(lang)}&source=work_style_result" class="related-card" style="--card-color:#f39c12">
-                <span class="related-emoji">🧩</span>
-                <span class="related-name" data-i18n="related.iqTest">${i18n.t('related.iqTest')}</span>
+            <a href="/mbti-career/?lang=${encodeURIComponent(lang)}&source=work_style_result" class="related-card" style="--card-color:#10b981">
+                <span class="related-emoji">💼</span>
+                <span class="related-name" data-i18n="related.mbtiCareer">${i18n.t('related.mbtiCareer')}</span>
             </a>
         </div>
     `;
@@ -306,6 +306,53 @@ function renderResult() {
     });
     container.appendChild(relatedDiv);
 
+    // 11.5 Curated Reading & Career Growth
+    const stores = { de: 'www.amazon.de', fr: 'www.amazon.fr', es: 'www.amazon.es', ja: 'www.amazon.co.jp', ko: 'www.amazon.com' };
+    const host = stores[lang] || 'www.amazon.com';
+    const curatedCard = document.createElement('div');
+    curatedCard.className = 'result-card curated-card';
+    curatedCard.id = 'curated-resources-card';
+    curatedCard.innerHTML = `
+        <h3>📚 ${i18n.t('curated.title')}</h3>
+        <p class="curated-subtitle">${i18n.t('curated.subtitle')}</p>
+        <div class="curated-list">
+            <a href="https://${host}/dp/0060833459?tag=dopabrain-20" target="_blank" rel="noopener noreferrer sponsored" class="curated-item" data-curated-key="effectiveExecutive">
+                <div class="curated-item-meta">
+                    <span class="curated-item-title">${i18n.t('curated.book1Title')}</span>
+                    <span class="curated-item-desc">${i18n.t('curated.book1Desc')}</span>
+                </div>
+                <span class="curated-item-cta">${i18n.t('curated.cta')} →</span>
+            </a>
+            <a href="https://${host}/dp/0787960756?tag=dopabrain-20" target="_blank" rel="noopener noreferrer sponsored" class="curated-item" data-curated-key="fiveDysfunctions">
+                <div class="curated-item-meta">
+                    <span class="curated-item-title">${i18n.t('curated.book2Title')}</span>
+                    <span class="curated-item-desc">${i18n.t('curated.book2Desc')}</span>
+                </div>
+                <span class="curated-item-cta">${i18n.t('curated.cta')} →</span>
+            </a>
+        </div>
+        <p class="curated-disclosure">${i18n.t('curated.disclosure')}</p>
+    `;
+    curatedCard.querySelectorAll('.curated-item').forEach(link => {
+        link.addEventListener('click', () => {
+            const key = link.getAttribute('data-curated-key');
+            if (typeof gtag === 'function') {
+                gtag('event', 'curated_resource_click', {
+                    app_name: 'work-style',
+                    resource_key: key,
+                    content_locale: lang,
+                    cta_surface: 'curated_resources'
+                });
+                gtag('event', 'content_cta_click', {
+                    cta_type: 'curated_book',
+                    destination: link.getAttribute('href'),
+                    source: 'work_style'
+                });
+            }
+        });
+    });
+    container.appendChild(curatedCard);
+
     // 12. Share CTA
     const ctaDiv = document.createElement('div');
     ctaDiv.className = 'share-cta';
@@ -316,27 +363,25 @@ function renderResult() {
     const actionsDiv = document.createElement('div');
     actionsDiv.className = 'action-buttons';
     actionsDiv.innerHTML = `
+        <button class="btn-action btn-download" id="btn-download" data-i18n="share.downloadCard">${i18n.t('share.downloadCard')}</button>
         <button class="btn-action btn-share" id="btn-share" data-i18n="result.shareBtn">📤 결과 공유하기</button>
         <button class="btn-action btn-retry" id="btn-retry" data-i18n="result.retryBtn">🔄 다시 테스트하기</button>
     `;
     container.appendChild(actionsDiv);
 
-    // 14. Ad Banner
-    const adDiv = document.createElement('div');
-    adDiv.className = 'ad-banner';
-    adDiv.textContent = 'AD';
-    container.appendChild(adDiv);
-
     // Translate new elements
     i18n.updateUI();
 
     // Bind result buttons
+    document.getElementById('btn-download')?.addEventListener('click', downloadStoryCard);
     document.getElementById('btn-share')?.addEventListener('click', openShareModal);
     document.getElementById('btn-retry')?.addEventListener('click', retryTest);
 
-    // Track result
-    if (typeof gtag !== 'undefined') {
-        gtag('event', 'quiz_complete', { event_category: 'work_style', event_label: pt, value: state.scores[pt] });
+    // Track result (clean telemetry without raw score)
+    if (typeof gtag !== 'undefined' && !renderResult._trackedThisRun) {
+        renderResult._trackedThisRun = true;
+        gtag('event', 'quiz_complete', { event_category: 'work_style', event_label: pt });
+        gtag('event', 'test_complete', { app_name: 'work-style', result_type: pt });
     }
 }
 
@@ -386,11 +431,90 @@ function showToast(msg) {
     setTimeout(() => toast.classList.remove('show'), 2500);
 }
 
+function getShareUrl() {
+    const lang = i18n.getCurrentLanguage() || 'ko';
+    return `https://dopabrain.com/work-style/?lang=${encodeURIComponent(lang)}&utm_source=share`;
+}
+
 function buildShareText() {
     const pt = state.primaryType;
     const typData = getTypeData(pt);
     const meta = TYPE_META[pt];
-    return `${meta.emoji} ${i18n.t('share.shareText').replace('{{type}}', typData.name).replace('{{enName}}', typData.enName)}\n\nhttps://dopabrain.com/work-style/`;
+    return `${meta.emoji} ${i18n.t('share.shareText').replace('{{type}}', typData.name).replace('{{enName}}', typData.enName)}\n\n${getShareUrl()}`;
+}
+
+function downloadStoryCard() {
+    const pt = state.primaryType;
+    if (!pt) return;
+    const typData = getTypeData(pt);
+    const meta = TYPE_META[pt];
+    const canvas = document.createElement('canvas');
+    canvas.width = 1080;
+    canvas.height = 1920;
+    const ctx = canvas.getContext('2d');
+    const grad = ctx.createLinearGradient(0, 0, 1080, 1920);
+    grad.addColorStop(0, '#0f0f1a');
+    grad.addColorStop(0.55, '#1e1b4b');
+    grad.addColorStop(1, '#111827');
+    ctx.fillStyle = grad;
+    ctx.fillRect(0, 0, 1080, 1920);
+
+    ctx.fillStyle = 'rgba(99, 102, 241, 0.16)';
+    ctx.beginPath();
+    ctx.arc(540, 560, 320, 0, Math.PI * 2);
+    ctx.fill();
+
+    ctx.fillStyle = '#a5b4fc';
+    ctx.font = 'bold 34px sans-serif';
+    ctx.textAlign = 'center';
+    ctx.fillText('DOPABRAIN · WORK STYLE PROFILE', 540, 210);
+
+    ctx.font = '180px sans-serif';
+    ctx.fillText(meta.emoji, 540, 610);
+
+    ctx.fillStyle = '#ffffff';
+    ctx.font = 'bold 62px sans-serif';
+    ctx.fillText(`${typData.name} (${typData.enName})`, 540, 800);
+
+    ctx.fillStyle = meta.color || '#818cf8';
+    ctx.font = 'bold 34px sans-serif';
+    ctx.fillText(typData.subtitle || '', 540, 880);
+
+    ctx.fillStyle = '#cbd5e1';
+    ctx.font = '32px sans-serif';
+    const words = (typData.description || '').split(' ');
+    let line = '', y = 990;
+    for (const word of words) {
+        const test = line ? `${line} ${word}` : word;
+        if (ctx.measureText(test).width > 860 && line) {
+            ctx.fillText(line, 540, y);
+            line = word;
+            y += 48;
+            if (y > 1520) break;
+        } else {
+            line = test;
+        }
+    }
+    if (line && y <= 1560) ctx.fillText(line, 540, y);
+
+    ctx.fillStyle = '#94a3b8';
+    ctx.font = 'bold 30px sans-serif';
+    ctx.fillText('dopabrain.com/work-style/', 540, 1760);
+
+    try {
+        const link = document.createElement('a');
+        link.download = `work-style-${pt.toLowerCase()}.png`;
+        link.href = canvas.toDataURL('image/png');
+        link.click();
+    } catch (e) {}
+
+    if (typeof gtag === 'function') {
+        gtag('event', 'save_image', {
+            app_name: 'work-style',
+            result_type: pt,
+            save_surface: 'result_story_1080x1920'
+        });
+    }
 }
 
 // ==================== INIT ====================
@@ -442,6 +566,8 @@ function buildShareText() {
             btn.classList.add('active');
             if (state.currentQ > 0 && state.currentQ < TOTAL_QUESTIONS) {
                 renderQuestion();
+            } else if (state.primaryType && document.getElementById('result-screen')?.classList.contains('active')) {
+                renderResult();
             }
         });
     });
@@ -453,10 +579,12 @@ function buildShareText() {
     // Start button
     document.getElementById('btn-start')?.addEventListener('click', () => {
         resetState();
+        renderResult._trackedThisRun = false;
         showScreen('quiz-screen');
         renderQuestion();
         if (typeof gtag !== 'undefined') {
             gtag('event', 'quiz_start', { event_category: 'work_style' });
+            gtag('event', 'test_start', { app_name: 'work-style', content_type: 'work_style_quiz' });
         }
     });
 
@@ -476,35 +604,37 @@ function buildShareText() {
     // Share buttons
     document.getElementById('share-twitter')?.addEventListener('click', () => {
         const text = buildShareText();
-        window.open(`https://twitter.com/intent/tweet?text=${encodeURIComponent(text)}`, '_blank');
+        window.open(`https://twitter.com/intent/tweet?text=${encodeURIComponent(text)}`, '_blank', 'noopener');
     });
 
     document.getElementById('share-facebook')?.addEventListener('click', () => {
-        window.open(`https://www.facebook.com/sharer/sharer.php?u=${encodeURIComponent('https://dopabrain.com/work-style/')}`, '_blank');
+        window.open(`https://www.facebook.com/sharer/sharer.php?u=${encodeURIComponent(getShareUrl())}`, '_blank', 'noopener');
     });
 
     document.getElementById('share-kakaotalk')?.addEventListener('click', () => {
         const text = buildShareText();
-        window.open(`https://story.kakao.com/share?url=${encodeURIComponent('https://dopabrain.com/work-style/')}&text=${encodeURIComponent(text)}`, '_blank');
+        window.open(`https://story.kakao.com/share?url=${encodeURIComponent(getShareUrl())}&text=${encodeURIComponent(text)}`, '_blank', 'noopener');
     });
 
     document.getElementById('share-copy')?.addEventListener('click', async () => {
+        const shareUrl = getShareUrl();
         try {
-            await navigator.clipboard.writeText('https://dopabrain.com/work-style/');
+            await navigator.clipboard.writeText(shareUrl);
             showToast(i18n.t('share.copied'));
         } catch (e) {
-            showToast('https://dopabrain.com/work-style/');
+            showToast(shareUrl);
         }
         closeShareModal();
     });
 
     document.getElementById('share-native')?.addEventListener('click', async () => {
+        const shareUrl = getShareUrl();
         if (navigator.share) {
             try {
                 await navigator.share({
                     title: i18n.t('app.title'),
                     text: buildShareText(),
-                    url: 'https://dopabrain.com/work-style/'
+                    url: shareUrl
                 });
             } catch (e) {}
         } else {

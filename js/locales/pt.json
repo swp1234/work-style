@@ -38,8 +38,7 @@
     "motivationTitle": "O que faz você prosperar",
     "shareBtn": "📤 Compartilhar resultados",
     "retryBtn": "🔄 Refazer teste",
-    "moreTests": "Explore mais testes",
-    "percentileStat": "Apenas <strong>{percent}%</strong> dos participantes obtiveram o mesmo tipo"
+    "moreTests": "Explore mais testes"
   },
   "related": {
     "mbtiCareer": "MBTI Carreira",
@@ -61,7 +60,8 @@
     "kakaotalk": "KakaoTalk",
     "copyLink": "Copiar link",
     "nativeShare": "Compartilhar",
-    "copied": "Link copiado!"
+    "copied": "Link copiado!",
+    "downloadCard": "Salvar Cartão"
   },
   "game": {
     "back": "DopaBrain Início"
@@ -335,5 +335,15 @@
     "faq3A": "De forma alguma. Toda a avaliação dos 25 itens ocorre 100% de forma local no seu dispositivo.",
     "reviewDate": "Revisão Editorial: Novembro de 2026",
     "reviewTeam": "DopaBrain Psicologia Organizacional"
+  },
+  "curated": {
+    "title": "Leituras Recomendadas para Carreira",
+    "subtitle": "Clássicos práticos para fortalecer execução, clareza estratégica e trabalho em equipe.",
+    "book1Title": "O Gerente Eficaz — Peter F. Drucker",
+    "book1Desc": "Referência fundamental em foco, gestão do tempo e decisões de alto impacto",
+    "book2Title": "Os 5 Desafios das Equipes — Patrick Lencioni",
+    "book2Desc": "Guia envolvente para construir confiança, colaboração e responsabilidade coletiva",
+    "cta": "Ver Livro",
+    "disclosure": "Divulgação de afiliados: Como Associado da Amazon, o DopaBrain pode ganhar com compras qualificadas."
   }
 }

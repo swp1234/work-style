@@ -38,8 +38,7 @@
     "motivationTitle": "あなたのモチベーション源",
     "shareBtn": "📤 結果をシェア",
     "retryBtn": "🔄 もう一度テスト",
-    "moreTests": "関連テストを見る",
-    "percentileStat": "受験者の <strong>{percent}%</strong> だけが同じタイプでした"
+    "moreTests": "関連テストを見る"
   },
   "related": {
     "mbtiCareer": "MBTI 適職",
@@ -61,7 +60,8 @@
     "kakaotalk": "KakaoTalk",
     "copyLink": "リンクをコピー",
     "nativeShare": "シェア",
-    "copied": "コピーしました！"
+    "copied": "コピーしました！",
+    "downloadCard": "結果カードを保存"
   },
   "game": {
     "back": "DopaBrainホーム"
@@ -335,5 +335,15 @@
     "faq3A": "一切保存されません。すべての計算はお使いの端末のブラウザ内で100%ローカルに処理されます。",
     "reviewDate": "監修・編集：2026年11月",
     "reviewTeam": "DopaBrain 組織心理学シリーズ"
+  },
+  "curated": {
+    "title": "ワークスタイル別おすすめ書籍",
+    "subtitle": "実行力・意思決定・チーム協働を深めるための定番ビジネス書です。",
+    "book1Title": "経営者の条件（P・F・ドラッカー）",
+    "book1Desc": "成果をあげる人の優先順位づけと意思決定の基本原則",
+    "book2Title": "あなたのチームは、機能しているか？（パトリック・レンシオーニ）",
+    "book2Desc": "チームの信頼構築と健全な議論を導く実践的リーダーシップ本",
+    "cta": "詳細を見る",
+    "disclosure": "アフィリエイト開示: Amazonアソシエイトとして適格販売により収入を得ています。"
   }
 }

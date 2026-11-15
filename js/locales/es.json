@@ -38,8 +38,7 @@
     "motivationTitle": "Lo que te hace prosperar",
     "shareBtn": "📤 Compartir resultados",
     "retryBtn": "🔄 Repetir test",
-    "moreTests": "Explora más tests",
-    "percentileStat": "Solo el <strong>{percent}%</strong> de los participantes obtuvo el mismo tipo"
+    "moreTests": "Explora más tests"
   },
   "related": {
     "mbtiCareer": "MBTI Carrera",
@@ -61,7 +60,8 @@
     "kakaotalk": "KakaoTalk",
     "copyLink": "Copiar enlace",
     "nativeShare": "Compartir",
-    "copied": "¡Enlace copiado!"
+    "copied": "¡Enlace copiado!",
+    "downloadCard": "Guardar Tarjeta"
   },
   "game": {
     "back": "DopaBrain Inicio"
@@ -335,5 +335,15 @@
     "faq3A": "Nunca. Las 25 respuestas y perfiles se procesan al 100% de forma local en tu navegador.",
     "reviewDate": "Revisión Editorial: Noviembre 2026",
     "reviewTeam": "DopaBrain Psicología Organizacional"
+  },
+  "curated": {
+    "title": "Lecturas Recomendadas para tu Carrera",
+    "subtitle": "Clásicos prácticos para potenciar tu ejecución, liderazgo y dinámica de equipo.",
+    "book1Title": "El Ejecutivo Eficaz — Peter F. Drucker",
+    "book1Desc": "Marco esencial de enfoque, prioridades y toma de decisiones efectivas",
+    "book2Title": "Las Cinco Disfunciones de un Equipo — Patrick Lencioni",
+    "book2Desc": "Guía práctica sobre confianza, debate saludable y compromiso en equipo",
+    "cta": "Ver Libro",
+    "disclosure": "Divulgación de afiliados: Como Afiliado de Amazon, DopaBrain puede ganar ingresos por compras elegibles."
   }
 }

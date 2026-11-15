@@ -7,7 +7,7 @@
     <title data-i18n="app.title">Work Style Test - Free Personality Quiz | DopaBrain</title>
     <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3600813755953882" crossorigin="anonymous"></script>
     <meta name="description" content="Discover your work personality through 25 workplace scenarios. Are you a Leader, Executor, Creative, Analyst, or Connector? Share with coworkers. Try free!">
-    <meta name="dateModified" content="2026-11-07">
+    <meta name="dateModified" content="2026-11-15">
     <meta name="keywords" content="직장인 유형 테스트, 업무 스타일, work style test, 직장인 테스트, 직업 성격 테스트, 리더형, 실행형, 창의형, 분석형, 관계형">
 
     <!-- Open Graph -->
@@ -284,7 +284,6 @@
         .btn-start:hover { transform: translateY(-2px); box-shadow: 0 8px 32px rgba(99,102,241,0.5); }
         .btn-start:active { transform: translateY(0); }
         .btn-start-pulse { animation: pulse-glow 2s infinite; }
-        .social-proof { font-size: 13px; color: var(--text-dim); }
         .micro-copy { font-size: 12px; color: var(--text-dim); }
 
         /* ==================== QUIZ SCREEN ==================== */
@@ -717,8 +716,30 @@
         }
         .related-emoji { font-size: 28px; }
         .related-name { font-size: 12px; font-weight: 600; color: var(--text); }
-        .percentile-stat { text-align: center; margin: 16px 0 0; font-size: 13px; color: var(--text-muted); }
-        .percentile-stat strong { color: var(--primary-light); font-size: 15px; }
+        .btn-download {
+            background: rgba(99, 102, 241, 0.14);
+            border: 1px solid rgba(99, 102, 241, 0.4) !important;
+            color: var(--primary-light);
+        }
+        .btn-download:hover { background: rgba(99, 102, 241, 0.24); transform: translateY(-2px); }
+        .curated-card { border-color: rgba(99, 102, 241, 0.28); }
+        .curated-subtitle { font-size: 13px; color: var(--text-muted); margin-bottom: 12px; line-height: 1.5; }
+        .curated-list { display: flex; flex-direction: column; gap: 10px; }
+        .curated-item {
+            display: flex; align-items: center; justify-content: space-between; gap: 12px;
+            padding: 12px 14px; border-radius: var(--radius-sm);
+            background: rgba(99, 102, 241, 0.08);
+            border: 1px solid var(--border);
+            text-decoration: none; color: var(--text);
+            min-height: 44px; box-sizing: border-box;
+            transition: transform 0.2s, border-color 0.2s, background 0.2s;
+        }
+        .curated-item:hover { border-color: var(--primary-light); background: rgba(99, 102, 241, 0.16); transform: translateY(-2px); }
+        .curated-item-meta { display: flex; flex-direction: column; gap: 3px; min-width: 0; text-align: left; }
+        .curated-item-title { font-size: 14px; font-weight: 700; color: var(--text); line-height: 1.35; }
+        .curated-item-desc { font-size: 12px; color: var(--text-muted); line-height: 1.4; }
+        .curated-item-cta { font-size: 12px; font-weight: 700; color: var(--primary-light); white-space: nowrap; flex-shrink: 0; }
+        .curated-disclosure { margin-top: 10px; font-size: 11px; color: var(--text-dim); line-height: 1.4; }
     </style>
     <script type="application/ld+json">
     {
@@ -808,7 +829,7 @@
 
             <!-- Organizational Psychology & E-E-A-T Guide Section -->
             <section class="about-section collapsible-section" id="about-section" style="width:100%;max-width:480px;margin:24px auto 0;text-align:left;">
-                <details style="background:rgba(255,255,255,0.03);border:1px solid rgba(255,255,255,0.08);border-radius:14px;overflow:hidden;">
+                <details open style="background:rgba(255,255,255,0.03);border:1px solid rgba(255,255,255,0.08);border-radius:14px;overflow:hidden;">
                     <summary data-i18n="about.toggle" style="min-height:48px;padding:14px 18px;color:var(--primary-light,#818cf8);cursor:pointer;font-size:14px;font-weight:700;list-style:none;display:flex;align-items:center;justify-content:space-between;box-sizing:border-box;touch-action:manipulation;">About the Work Style Test & Team Roles</summary>
                     <div class="about-content" style="padding:0 18px 20px;box-sizing:border-box;">
                         <h2 data-i18n="about.heading1" style="font-size:14px;color:#fff;margin:14px 0 8px;font-weight:700;border-left:3px solid var(--primary,#6366f1);padding-left:8px;">Belbin Team Roles & Workplace Behavioral Psychology</h2>

@@ -38,8 +38,7 @@
     "motivationTitle": "Was dich zum Aufblühen bringt",
     "shareBtn": "📤 Ergebnisse teilen",
     "retryBtn": "🔄 Test wiederholen",
-    "moreTests": "Weitere Tests entdecken",
-    "percentileStat": "Nur <strong>{percent}%</strong> der Teilnehmer erhielten denselben Typ"
+    "moreTests": "Weitere Tests entdecken"
   },
   "related": {
     "mbtiCareer": "MBTI Karriere",
@@ -61,7 +60,8 @@
     "kakaotalk": "KakaoTalk",
     "copyLink": "Link kopieren",
     "nativeShare": "Teilen",
-    "copied": "Link kopiert!"
+    "copied": "Link kopiert!",
+    "downloadCard": "Ergebniskarte Speichern"
   },
   "game": {
     "back": "DopaBrain Startseite"
@@ -335,5 +335,15 @@
     "faq3A": "Nein. Sämtliche 25 Antworten werden ausschließlich lokal in deinem Browser ausgewertet.",
     "reviewDate": "Redaktionelle Prüfung: November 2026",
     "reviewTeam": "DopaBrain Arbeitspsychologie"
+  },
+  "curated": {
+    "title": "Buchempfehlungen für Beruf & Team",
+    "subtitle": "Bewährte Klassiker für effektive Umsetzung, Klarheit und konstruktive Teamarbeit.",
+    "book1Title": "Effektiv führen — Peter F. Drucker",
+    "book1Desc": "Zeitlose Prinzipien für Prioritäten, Fokus und wirksame Entscheidungen",
+    "book2Title": "Die 5 Dysfunktionen eines Teams — Patrick Lencioni",
+    "book2Desc": "Praxisleitfaden für Vertrauen, offene Debatten und gemeinsame Verantwortung",
+    "cta": "Buch ansehen",
+    "disclosure": "Affiliate-Hinweis: Als Amazon-Partner verdient DopaBrain an qualifizierten Verkäufen."
   }
 }

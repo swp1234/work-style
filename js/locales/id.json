@@ -38,8 +38,7 @@
     "motivationTitle": "Yang Membuatmu Berkembang",
     "shareBtn": "📤 Bagikan Hasil",
     "retryBtn": "🔄 Ulangi Tes",
-    "moreTests": "Jelajahi Tes Lainnya",
-    "percentileStat": "Hanya <strong>{percent}%</strong> peserta tes mendapat tipe yang sama"
+    "moreTests": "Jelajahi Tes Lainnya"
   },
   "related": {
     "mbtiCareer": "MBTI Karier",
@@ -61,7 +60,8 @@
     "kakaotalk": "KakaoTalk",
     "copyLink": "Salin Tautan",
     "nativeShare": "Bagikan",
-    "copied": "Tautan disalin!"
+    "copied": "Tautan disalin!",
+    "downloadCard": "Simpan Kartu Hasil"
   },
   "game": {
     "back": "Beranda DopaBrain"
@@ -335,5 +335,15 @@
     "faq3A": "Tidak pernah. Semua proses penilaian berjalan secara lokal di peramban perangkat Anda.",
     "reviewDate": "Tinjauan Editorial: November 2026",
     "reviewTeam": "Seri Psikologi Organisasi DopaBrain"
+  },
+  "curated": {
+    "title": "Bacaan Pilihan untuk Karier & Tim",
+    "subtitle": "Buku klasik teruji untuk mengasah eksekusi, fokus strategis, dan kolaborasi tim.",
+    "book1Title": "The Effective Executive — Peter F. Drucker",
+    "book1Desc": "Kerangka abadi tentang prioritas kerja, fokus, dan pengambilan keputusan",
+    "book2Title": "The Five Dysfunctions of a Team — Patrick Lencioni",
+    "book2Desc": "Panduan praktis membangun kepercayaan dan komunikasi tim yang sehat",
+    "cta": "Lihat Buku",
+    "disclosure": "Pengungkapan afiliasi: Sebagai Amazon Associate, DopaBrain dapat memperoleh komisi dari pembelian yang memenuhi syarat."
   }
 }
