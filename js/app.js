@@ -286,9 +286,9 @@ function renderResult() {
                 <span class="related-emoji">💡</span>
                 <span class="related-name" data-i18n="related.mbtiTips">${i18n.t('related.mbtiTips')}</span>
             </a>
-            <a href="/mbti-career/?lang=${encodeURIComponent(lang)}&source=work_style_result" class="related-card" style="--card-color:#10b981">
-                <span class="related-emoji">💼</span>
-                <span class="related-name" data-i18n="related.mbtiCareer">${i18n.t('related.mbtiCareer')}</span>
+            <a href="/mbti-love/?lang=${encodeURIComponent(lang)}&source=work_style_result" class="related-card" style="--card-color:#10b981">
+                <span class="related-emoji">💘</span>
+                <span class="related-name" data-i18n="related.mbtiLove">${i18n.t('related.mbtiLove')}</span>
             </a>
         </div>
     `;
