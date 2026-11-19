@@ -345,5 +345,11 @@
     "book2Desc": "Guide concret pour bâtir la confiance et l’engagement collectif au travail",
     "cta": "Voir le livre",
     "disclosure": "Lien affilié : En tant que Partenaire Amazon, DopaBrain réalise un bénéfice sur les achats éligibles."
+  },
+  "nextStep": {
+    "label": "Prochaine étape recommandée",
+    "title": "Test de Stress au Travail",
+    "desc": "Associez votre style pro à un bilan de stress en 3 min et un plan sur 7 jours.",
+    "cta": "Tester mon stress →"
   }
 }

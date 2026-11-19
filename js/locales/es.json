@@ -345,5 +345,11 @@
     "book2Desc": "Guía práctica sobre confianza, debate saludable y compromiso en equipo",
     "cta": "Ver Libro",
     "disclosure": "Divulgación de afiliados: Como Afiliado de Amazon, DopaBrain puede ganar ingresos por compras elegibles."
+  },
+  "nextStep": {
+    "label": "Siguiente paso recomendado",
+    "title": "Test de Estrés Laboral",
+    "desc": "Combina tu estilo de trabajo con un chequeo de estrés de 3 min y plan de 7 días.",
+    "cta": "Hacer Test de Estrés →"
   }
 }

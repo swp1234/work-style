@@ -345,5 +345,11 @@
     "book2Desc": "Panduan praktis membangun kepercayaan dan komunikasi tim yang sehat",
     "cta": "Lihat Buku",
     "disclosure": "Pengungkapan afiliasi: Sebagai Amazon Associate, DopaBrain dapat memperoleh komisi dari pembelian yang memenuhi syarat."
+  },
+  "nextStep": {
+    "label": "Langkah Berikutnya",
+    "title": "Tes Tingkat Stres Kerja",
+    "desc": "Padukan gaya kerjamu dengan cek stres 3 menit dan rencana pemulihan 7 hari.",
+    "cta": "Mulai Tes Stres →"
   }
 }

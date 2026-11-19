@@ -345,5 +345,11 @@
     "book2Desc": "Practical leadership fable on building trust, healthy debate, and team accountability",
     "cta": "View Book",
     "disclosure": "Affiliate disclosure: As an Amazon Associate, DopaBrain may earn from qualifying purchases."
+  },
+  "nextStep": {
+    "label": "Recommended Next Step",
+    "title": "Workplace Stress Level Check",
+    "desc": "Pair your work style profile with a 3-minute stress audit and private 7-day reset plan.",
+    "cta": "Take Stress Check →"
   }
 }

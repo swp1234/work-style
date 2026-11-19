@@ -267,8 +267,38 @@ function renderResult() {
         <div class="motivation-text">${typData.motivation}</div>`;
     container.appendChild(motivCard);
 
-    // 11. Related Tests
+    // 10.5 Next-Step Hero Funnel Card
     const lang = i18n.getCurrentLanguage() || 'ko';
+    const nextCard = document.createElement('section');
+    nextCard.className = 'next-step-card';
+    nextCard.id = 'nextStepCard';
+    nextCard.innerHTML = `
+        <p class="next-step-label">${i18n.t('nextStep.label')}</p>
+        <div class="next-step-main">
+            <span class="next-step-emoji" aria-hidden="true">⚡</span>
+            <div>
+                <h4 class="next-step-title">${i18n.t('nextStep.title')}</h4>
+                <p class="next-step-desc">${i18n.t('nextStep.desc')}</p>
+            </div>
+        </div>
+        <a href="/stress-check/?lang=${encodeURIComponent(lang)}&start=1&source=work_style_result" class="next-step-cta" id="nextStepCta">${i18n.t('nextStep.cta')}</a>
+    `;
+    const nextLink = nextCard.querySelector('#nextStepCta');
+    if (nextLink) {
+        nextLink.addEventListener('click', () => {
+            if (typeof gtag === 'function') {
+                gtag('event', 'content_cta_click', {
+                    cta_surface: 'next_step_hero',
+                    destination: nextLink.getAttribute('href'),
+                    source: 'work_style_result',
+                    lang: lang
+                });
+            }
+        });
+    }
+    container.appendChild(nextCard);
+
+    // 11. Related Tests
     const relatedDiv = document.createElement('div');
     relatedDiv.className = 'related-tests';
     relatedDiv.innerHTML = `

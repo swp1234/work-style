@@ -345,5 +345,11 @@
     "book2Desc": "Ekip içi güven, yapıcı tartışma ve ortak sorumluluk geliştirme kılavuzu",
     "cta": "Kitabı İncele",
     "disclosure": "Ortaklık bildirimi: Amazon İş Ortağı olarak uygun satın alımlardan gelir elde edebiliriz."
+  },
+  "nextStep": {
+    "label": "Önerilen Sonraki Adım",
+    "title": "İş Stresi Seviyesi Testi",
+    "desc": "Çalışma stilini 3 dakikalık stres testi ve 7 günlük sıfırlama planıyla tamamla.",
+    "cta": "Stres Testini Başlat →"
   }
 }

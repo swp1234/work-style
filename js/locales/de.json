@@ -345,5 +345,11 @@
     "book2Desc": "Praxisleitfaden für Vertrauen, offene Debatten und gemeinsame Verantwortung",
     "cta": "Buch ansehen",
     "disclosure": "Affiliate-Hinweis: Als Amazon-Partner verdient DopaBrain an qualifizierten Verkäufen."
+  },
+  "nextStep": {
+    "label": "Empfohlener nächster Schritt",
+    "title": "Job-Stresslevel-Check",
+    "desc": "Verbinde deinen Arbeitsstil mit einem 3-Minuten-Stresscheck und 7-Tage-Reset-Plan.",
+    "cta": "Stresstest starten →"
   }
 }
